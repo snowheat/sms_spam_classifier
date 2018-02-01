@@ -30,11 +30,11 @@ class SpamClassifier:
 
         print("> Experiment : " + algorithm)
         self.__experiment = {
-            'lexical'           : '0',
-            'decision_tree'     : '1',
+            'lexical'           : '0', # insan
+            'decision_tree'     : '1', # sigit
             'naive_bayes'       : NaiveBayes(),
             'random_forest'     : '3',
-            'svm'               : Svm(),
+            'svm'               : Svm(), # insan
             'neural_network'    : '5',
             'sgd'               : '6',
             'vector_space_model': VectorSpaceModel(),
