@@ -2,8 +2,8 @@ from sklearn import tree
 from sklearn import preprocessing
 import numpy as np
 
-class DecisionTree:
 
+class DecisionTree:
     def __init__(self):
         self.__model = type('test', (object,), {})()
         pass
@@ -14,8 +14,8 @@ class DecisionTree:
         self.__model = tree.DecisionTreeClassifier()
         self.__model = self.__model.fit(X_training_data['data_tfidf'], y)
 
-        print(self.__model.predict(X_training_data['data_tfidf']), y)
-
+        predicted_y = self.__model.predict(X_training_data['data_tfidf'])
+        print(np.mean(predicted_y == y))
         pass
 
     def test(self, X_test_data):

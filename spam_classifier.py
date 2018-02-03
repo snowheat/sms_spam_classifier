@@ -11,6 +11,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 
 from experiments.knn import Knn
+from experiments.sgd import SGD
 from experiments.rule_based import RuleBased
 from experiments.svm import Svm
 from experiments.decision_tree import DecisionTree
@@ -66,6 +67,7 @@ class SpamClassifier:
             'sgd'               : '6',
             'vector_space_model': VectorSpaceModel(),
             'knn'               : Knn(),
+            'sgd'               : SGD()
         }[algorithm]
 
     def __get_pre_processed_data(self, file):
