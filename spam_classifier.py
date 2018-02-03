@@ -30,20 +30,21 @@ class SpamClassifier:
         # https://datascience.stackexchange.com/questions/12321/difference-between-fit-and-fit-transform-in-scikit-learn-models
         # https://stackoverflow.com/questions/40731271/test-and-train-dataset-has-different-number-of-features
 
-        # Get pre processed train data
-        self.__pre_processed_train_data = self.__get_pre_processed_data("spam_train.txt")
-
         # Vectorizer
         self.__vectorizer = CountVectorizer()
 
         # TF-IDF Transformer
         self.__tfidf_transformer = TfidfTransformer()
 
+
+        # Get pre processed train data
+        self.__pre_processed_train_data = self.__get_pre_processed_data("spam_train.txt")
+
         # Get document-term matrix (X) train data
         self.__X_train_data = self.__get_X_train_data()
 
-
         print("> Train data loaded & pre processed.")
+
 
         # Get pre processed test data
         self.__pre_processed_test_data = self.__get_pre_processed_data("spam_test.txt")
@@ -52,6 +53,7 @@ class SpamClassifier:
         self.__X_test_data = self.__get_X_test_data()
 
         print("> Test data loaded & pre processed.")
+
 
         print("> Experiment : " + algorithm)
         self.__experiment = {
