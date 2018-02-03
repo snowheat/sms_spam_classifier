@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-import re
+import re, pickle
 
 import nltk
 from nltk.corpus import stopwords
@@ -30,12 +30,12 @@ class SpamClassifier:
         # https://datascience.stackexchange.com/questions/12321/difference-between-fit-and-fit-transform-in-scikit-learn-models
         # https://stackoverflow.com/questions/40731271/test-and-train-dataset-has-different-number-of-features
 
+
         # Vectorizer
         self.__vectorizer = CountVectorizer()
 
         # TF-IDF Transformer
         self.__tfidf_transformer = TfidfTransformer()
-
 
         # Get pre processed train data
         self.__pre_processed_train_data = self.__get_pre_processed_data("spam_train.txt")
@@ -54,13 +54,12 @@ class SpamClassifier:
 
         print("> Test data loaded & pre processed.")
 
-
         print("> Experiment : " + algorithm)
         self.__experiment = {
             'rule_based'        : RuleBased(), # insan
             'decision_tree'     : '1', # sigit
             'naive_bayes'       : NaiveBayes(),
-            'random_forest'     : '3',
+            'random_forest'     : RandomForest(),
             'svm'               : Svm(), # insan
             'neural_network'    : '5',
             'sgd'               : '6',
@@ -142,6 +141,7 @@ class SpamClassifier:
         X['shape'] = X_frequency.shape
         X['vocabulary_'] = self.__vectorizer.vocabulary_
 
+        """
         print(X['labels'])
         print(len(X['labels']))
         print(X['shape'])
@@ -149,6 +149,7 @@ class SpamClassifier:
         print(X_tfidf) # tfidf yg compact ternormalisasi
         print(X['data_tfidf_features']) # tfidf bentuk matrix penuh
         print("==================================================")
+        """
 
         return X
 
@@ -172,12 +173,14 @@ class SpamClassifier:
         X['shape'] = X_frequency.shape
         X['vocabulary_'] = self.__vectorizer.vocabulary_
 
+        """
         print(X['labels'])
         print(len(X['labels']))
         print(X['shape'])
         print(X['vocabulary_'])
         print(X_tfidf) # tfidf yg compact ternormalisasi
         print(X['data_tfidf_features']) # tfidf bentuk matrix penuh
+        """
 
         return X
 
