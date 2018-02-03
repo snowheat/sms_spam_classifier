@@ -1,5 +1,5 @@
 from spam_classifier import SpamClassifier
 
-spamClassifier = SpamClassifier(algorithm='rule_based')
+spamClassifier = SpamClassifier(algorithm='decision_tree')
 spamClassifier.train()
 spamClassifier.test()
