@@ -1,10 +1,11 @@
 class Knn:
 
     def __init__(self):
+        self.__model = type('test', (object,), {})()
         pass
 
-    def train(self, pre_processed_train_data):
+    def train(self, X_training_data):
         pass
 
-    def test(self, pre_processed_test_data):
+    def test(self, X_test_data):
         pass

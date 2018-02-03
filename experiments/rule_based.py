@@ -1,4 +1,7 @@
-class VectorSpaceModel:
+import operator
+
+
+class RuleBased:
 
     def __init__(self):
         self.__model = type('test', (object,), {})()
