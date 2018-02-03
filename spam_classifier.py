@@ -13,6 +13,7 @@ from sklearn.feature_extraction.text import TfidfTransformer
 from experiments.knn import Knn
 from experiments.rule_based import RuleBased
 from experiments.svm import Svm
+from experiments.decision_tree import DecisionTree
 from experiments.naive_bayes import NaiveBayes
 from experiments.vector_space_model import VectorSpaceModel
 
@@ -57,7 +58,7 @@ class SpamClassifier:
         print("> Experiment : " + algorithm)
         self.__experiment = {
             'rule_based'        : RuleBased(), # insan
-            'decision_tree'     : '1', # sigit
+            'decision_tree'     : DecisionTree(), # sigit
             'naive_bayes'       : NaiveBayes(),
             'random_forest'     : RandomForest(),
             'svm'               : Svm(), # insan
