@@ -1,13 +1,14 @@
-from sklearn import neighbors
+from sklearn import neural_network
 import numpy as np
 
-class Knn:
+
+class NeuralNet:
     def __init__(self):
         self.__model = type('test', (object,), {})()
         pass
 
     def train(self, X_training_data):
-        self.__model = neighbors.KNeighborsClassifier(5)
+        self.__model = neural_network.MLPClassifier()
         self.__model = self.__model.fit(X_training_data['data_tfidf'], X_training_data['labels'])
 
         predicted_y = self.__model.predict(X_training_data['data_tfidf'])

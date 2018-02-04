@@ -1,5 +1,5 @@
 from spam_classifier import SpamClassifier
 
-spamClassifier = SpamClassifier(algorithm='sgd')
+spamClassifier = SpamClassifier(algorithm='knn')
 spamClassifier.train()
 spamClassifier.test()
