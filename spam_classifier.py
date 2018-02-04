@@ -6,6 +6,7 @@ import re, pickle
 import nltk
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
+from nltk.stem import PorterStemmer
 
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
@@ -26,7 +27,9 @@ from experiments.vector_space_model import VectorSpaceModel
 
 class SpamClassifier:
 
-    def __init__(self, algorithm='decision_tree'):
+    def __init__(self, combination, algorithm='decision_tree', stemming=False, lemma=True, zero=True, stopwords=True, normalization=True):
+
+        print("=============================", algorithm, " - Combination ", combination, "=============================")
 
         # https://machinelearningmastery.com/prepare-text-data-machine-learning-scikit-learn/
         # https://towardsdatascience.com/machine-learning-nlp-text-classification-using-scikit-learn-python-and-nltk-c52b92a7c73a
@@ -34,6 +37,14 @@ class SpamClassifier:
         # https://datascience.stackexchange.com/questions/12321/difference-between-fit-and-fit-transform-in-scikit-learn-models
         # https://stackoverflow.com/questions/40731271/test-and-train-dataset-has-different-number-of-features
 
+        # Options
+        self.__options = {
+            'stemming': stemming,
+            'lemma' : lemma,
+            'zero' : zero,
+            'stopwords' : stopwords,
+            'normalization' : normalization,
+        }
 
         # Vectorizer
         self.__vectorizer = CountVectorizer()
@@ -89,12 +100,21 @@ class SpamClassifier:
             all_text = all_text.replace(".", " ")
             all_text = all_text.replace("\t", " ")
 
-            # replace words
+            # word normalization
+            if self.__options['normalization']:
+                all_text = all_text.replace("'d", " would")
+                all_text = all_text.replace("'m", " am")
+                all_text = all_text.replace("'ve", " have")
+                all_text = all_text.replace("'ll", " will")
+                all_text = all_text.replace("'s", " is")
+                all_text = all_text.replace("'re", " are")
+                all_text = all_text.replace("n't", " not")
 
             # replace repeatable character : 0
 
             # replace 0 with <space>0<space>
-            all_text = all_text.replace("0", " 0 ")
+            if self.__options['zero']:
+                all_text = all_text.replace("0", " 0 ")
 
             # replace more than 1 spaces with space
             all_text = re.sub(' +', ' ', all_text)
@@ -102,9 +122,10 @@ class SpamClassifier:
             raw_data = [s.strip() for s in all_text.splitlines()]
 
             lmtzr = WordNetLemmatizer()
+            ps = PorterStemmer()
             stopWords = set(stopwords.words('english'))
 
-            pre_processed_data = {'labels' : [], 'data' : []}
+            pre_processed_data = {'labels' : [], 'data' : [], 'spam_words' : []}
 
             for row in raw_data:
                 row_split = row.split()
@@ -115,11 +136,35 @@ class SpamClassifier:
                 term_array = []
                 for term in row_split[1:]:
 
-                    # remove stop words
-                    if term not in stopWords:
+                    # stemming
+                    if self.__options['stemming']:
+                        term = ps.stem(term)
+                    else:
+                        term = term
 
-                        # lemmatization
-                        term_array.append(lmtzr.lemmatize(term, pos='v'))
+                    # lemmatization
+                    if self.__options['lemma']:
+                        lemmatized_term = lmtzr.lemmatize(term, pos='v')
+                    else:
+                        lemmatized_term = term
+
+
+
+                    # remove stop words
+                    if self.__options['stopwords']:
+                        if term not in stopWords:
+
+                            term_array.append(lemmatized_term)
+
+                            if row_split[0] == "spam":
+                                if lemmatized_term not in pre_processed_data['spam_words']:
+                                    pre_processed_data['spam_words'].append(lemmatized_term)
+                    else:
+                        term_array.append(lemmatized_term)
+
+                        if row_split[0] == "spam":
+                            if lemmatized_term not in pre_processed_data['spam_words']:
+                                pre_processed_data['spam_words'].append(lemmatized_term)
 
                 # get data
                 pre_processed_data['data'].append(" ".join(term_array))
@@ -129,9 +174,14 @@ class SpamClassifier:
     # get document-term matrix from training data
     def __get_X_train_data(self):
 
-        X = {'labels': [], 'data_tfidf': [], 'data_tfidf_features': [], 'shape': [], 'vocabulary_': []}
+        X = {'labels': [], 'data': [], 'data_tfidf': [], 'data_tfidf_features': [], 'shape': [], 'vocabulary_': [], 'spam_words': []}
 
         X['labels'] = self.__pre_processed_train_data['labels'];
+
+        X['spam_words'] = self.__pre_processed_train_data['spam_words'];
+
+        X['data'] = self.__pre_processed_train_data['data']
+
 
         # encode to document term matrix - frequency
         X_frequency = self.__vectorizer.fit_transform(self.__pre_processed_train_data['data'])
@@ -161,9 +211,13 @@ class SpamClassifier:
 
     def __get_X_test_data(self):
 
-        X = {'labels': [], 'data_tfidf': [], 'data_tfidf_features': [], 'shape': [], 'vocabulary_': []}
+        X = {'labels': [], 'data': [], 'data_tfidf': [], 'data_tfidf_features': [], 'shape': [], 'vocabulary_': []}
 
         X['labels'] = self.__pre_processed_test_data['labels'];
+
+
+
+        X['data'] = self.__pre_processed_test_data['data']
 
         # encode to document term matrix - frequency
         X_frequency = self.__vectorizer.transform(self.__pre_processed_test_data['data'])
