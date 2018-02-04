@@ -14,6 +14,8 @@ from experiments.knn import Knn
 from experiments.sgd import SGD
 from experiments.rule_based import RuleBased
 from experiments.svm import Svm
+from experiments.neural_net import NeuralNet
+from experiments.random_forest import RandomForest
 from experiments.decision_tree import DecisionTree
 from experiments.naive_bayes import NaiveBayes
 from experiments.vector_space_model import VectorSpaceModel
@@ -62,13 +64,12 @@ class SpamClassifier:
             'rule_based'        : RuleBased(), # insan
             'decision_tree'     : DecisionTree(), # sigit
             'naive_bayes'       : NaiveBayes(),
-            'random_forest'     : '3',
+            'random_forest'     : RandomForest(),
             'svm'               : Svm(), # insan
-            'neural_network'    : '5',
-            'sgd'               : '6',
+            'neural_network'    : NeuralNet(),
             'vector_space_model': VectorSpaceModel(),
             'knn'               : Knn(),
-            'sgd'               : SGD()
+            'sgd'               : SGD(),
         }[algorithm]
 
     def __get_pre_processed_data(self, file):
