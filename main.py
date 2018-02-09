@@ -1,6 +1,6 @@
 from spam_classifier import SpamClassifier
 
-algorithm = 'rule_based'
+algorithm = 'sgd'
 
 spamClassifier = SpamClassifier(combination='A', algorithm=algorithm, stemming=False, lemma=True, zero=False, stopwords=True, normalization=False)
 spamClassifier.train()
