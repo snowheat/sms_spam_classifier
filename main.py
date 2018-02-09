@@ -2,7 +2,11 @@ from spam_classifier import SpamClassifier
 import timeit
 start = timeit.default_timer()
 
+
+algorithm = 'sgd'
+
 algorithm = input("Choose algorithm: ")
+
 
 spamClassifier = SpamClassifier(combination='A', algorithm=algorithm, stemming=False, lemma=True, zero=False, stopwords=True, normalization=False)
 spamClassifier.train()
