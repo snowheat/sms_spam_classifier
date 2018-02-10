@@ -1,7 +1,13 @@
 from spam_classifier import SpamClassifier
+import timeit
+start = timeit.default_timer()
+
 
 algorithm = 'svm'
 # algorithm = 'decision_tree'
+
+algorithm = input("Choose algorithm: ")
+
 
 spamClassifier = SpamClassifier(combination='A', algorithm=algorithm, stemming=False, lemma=True, zero=False, stopwords=True, normalization=False)
 spamClassifier.train()
@@ -22,3 +28,6 @@ spamClassifier.test()
 spamClassifier = SpamClassifier(combination='E', algorithm=algorithm, stemming=False, lemma=True, zero=True, stopwords=False, normalization=True)
 spamClassifier.train()
 spamClassifier.test()
+
+stop = timeit.default_timer()
+print("time : ", stop - start)
