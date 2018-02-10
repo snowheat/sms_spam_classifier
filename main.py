@@ -1,6 +1,7 @@
 from spam_classifier import SpamClassifier
 
-algorithm = 'sgd'
+algorithm = 'svm'
+# algorithm = 'decision_tree'
 
 spamClassifier = SpamClassifier(combination='A', algorithm=algorithm, stemming=False, lemma=True, zero=False, stopwords=True, normalization=False)
 spamClassifier.train()
