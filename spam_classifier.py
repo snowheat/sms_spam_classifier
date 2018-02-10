@@ -27,7 +27,7 @@ from experiments.vector_space_model import VectorSpaceModel
 
 class SpamClassifier:
 
-    def __init__(self, combination, algorithm='decision_tree', stemming=False, lemma=True, zero=True, stopwords=True, normalization=True):
+    def __init__(self, combination, algorithm='decision_tree', stemming=False, lemma=True, zero=True, stopwords=True, normalization=True, tfidf_max_features=None, svd_max_features=1000):
 
         print("=============================", algorithm, " - Combination ", combination, "=============================")
 
@@ -44,16 +44,18 @@ class SpamClassifier:
             'zero' : zero,
             'stopwords' : stopwords,
             'normalization' : normalization,
+            'tfidf_max_features' : tfidf_max_features,
+            'svd_max_features' : svd_max_features,
         }
 
         # Vectorizer
-        self.__vectorizer = CountVectorizer()
+        self.__vectorizer = CountVectorizer(self.__options['tfidf_max_features'])
 
         # TF-IDF Transformer
         self.__tfidf_transformer = TfidfTransformer()
 
         # Get pre processed train data
-        self.__pre_processed_train_data = self.__get_pre_processed_data("spam_train.txt")
+        self.__pre_processed_train_data = self.__get_pre_processed_data("spam_train.hasil_sgd_24_skenario")
 
         # Get document-term matrix (X) train data
         self.__X_train_data = self.__get_X_train_data()
@@ -62,7 +64,7 @@ class SpamClassifier:
 
 
         # Get pre processed test data
-        self.__pre_processed_test_data = self.__get_pre_processed_data("spam_test.txt")
+        self.__pre_processed_test_data = self.__get_pre_processed_data("spam_test.hasil_sgd_24_skenario")
 
         # Get document-term matrix (X) test data
         self.__X_test_data = self.__get_X_test_data()
@@ -174,9 +176,10 @@ class SpamClassifier:
     # get document-term matrix from training data
     def __get_X_train_data(self):
 
-        X = {'labels': [], 'data': [], 'data_tfidf': [], 'data_tfidf_features': [], 'shape': [], 'vocabulary_': [], 'spam_words': []}
+        X = {'labels': [], 'data': [], 'data_tfidf': [], 'data_tfidf_features': [], 'shape': [], 'vocabulary_': [], 'spam_words': [], 'svd_max_features': []}
 
         X['labels'] = self.__pre_processed_train_data['labels'];
+        X['svd_max_features'] = self.__options['svd_max_features']
 
         X['spam_words'] = self.__pre_processed_train_data['spam_words'];
 
@@ -211,11 +214,10 @@ class SpamClassifier:
 
     def __get_X_test_data(self):
 
-        X = {'labels': [], 'data': [], 'data_tfidf': [], 'data_tfidf_features': [], 'shape': [], 'vocabulary_': []}
+        X = {'labels': [], 'data': [], 'data_tfidf': [], 'data_tfidf_features': [], 'shape': [], 'vocabulary_': [], 'svd_max_features': []}
 
         X['labels'] = self.__pre_processed_test_data['labels'];
-
-
+        X['svd_max_features'] = self.__options['svd_max_features']
 
         X['data'] = self.__pre_processed_test_data['data']
 
