@@ -3,7 +3,8 @@ import timeit
 start = timeit.default_timer()
 
 
-algorithm = 'sgd'
+algorithm = 'svm'
+# algorithm = 'decision_tree'
 
 algorithm = input("Choose algorithm: ")
 
