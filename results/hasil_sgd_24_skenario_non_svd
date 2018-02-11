@@ -1,0 +1,420 @@
+C:\Users\insan\.conda\envs\nlp2018\python.exe "F:/S2/IF5282 Pemrosesan Bahasa Alami/tugas2/main.py"
+============================= sgd  - Combination  B =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : sgd
+[[ HAM SALAH >  159  :  k k sm chat
+[[ SPAM SALAH >  372  :  date two onli start sent text talk sport radio last week ani connect think coincid
+[[ SPAM SALAH >  451  :  latest news polic station toilet stolen cop noth go
+[[ HAM SALAH >  477  :  dhoni luck win big titl win
+[[ SPAM SALAH >  542  :  ask 3mobil 0 87 0 chatlin inclu free min india cust serv sed ye l8er got mega bill 3 dont giv shit bailiff due day 25 0 3 want 8 0 0
+[[[ akurasi total  0.9912891986062717
+[[[ akurasi total ham  0.996
+[[[ akurasi total spam  0.9594594594594594
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9912891986062717
+============================= sgd  - Combination  B2 =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : sgd
+[[ HAM SALAH >  159  :  k k sm chat
+[[ SPAM SALAH >  372  :  date two onli start sent text talk sport radio last week ani connect think coincid
+[[ SPAM SALAH >  451  :  latest news polic station toilet stolen cop noth go
+[[ HAM SALAH >  477  :  dhoni luck win big titl win
+[[ SPAM SALAH >  542  :  ask 3mobil 0 87 0 chatlin inclu free min india cust serv sed ye l8er got mega bill 3 dont giv shit bailiff due day 25 0 3 want 8 0 0
+[[[ akurasi total  0.9912891986062717
+[[[ akurasi total ham  0.996
+[[[ akurasi total spam  0.9594594594594594
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9912891986062717
+============================= sgd  - Combination  B3 =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : sgd
+[[ HAM SALAH >  159  :  k k sm chat
+[[ SPAM SALAH >  372  :  date two onli start sent text talk sport radio last week ani connect think coincid
+[[ SPAM SALAH >  451  :  latest news polic station toilet stolen cop noth go
+[[ HAM SALAH >  477  :  dhoni luck win big titl win
+[[ SPAM SALAH >  542  :  ask 3mobil 0 87 0 chatlin inclu free min india cust serv sed ye l8er got mega bill 3 dont giv shit bailiff due day 25 0 3 want 8 0 0
+[[[ akurasi total  0.9912891986062717
+[[[ akurasi total ham  0.996
+[[[ akurasi total spam  0.9594594594594594
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9912891986062717
+============================= sgd  - Combination  B4 =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : sgd
+[[ HAM SALAH >  159  :  k k sm chat
+[[ SPAM SALAH >  372  :  date two onli start sent text talk sport radio last week ani connect think coincid
+[[ SPAM SALAH >  451  :  latest news polic station toilet stolen cop noth go
+[[ HAM SALAH >  477  :  dhoni luck win big titl win
+[[ SPAM SALAH >  542  :  ask 3mobil 0 87 0 chatlin inclu free min india cust serv sed ye l8er got mega bill 3 dont giv shit bailiff due day 25 0 3 want 8 0 0
+[[[ akurasi total  0.9912891986062717
+[[[ akurasi total ham  0.996
+[[[ akurasi total spam  0.9594594594594594
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9912891986062717
+============================= sgd  - Combination  B5 =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : sgd
+[[ HAM SALAH >  159  :  k k sm chat
+[[ SPAM SALAH >  372  :  date two onli start sent text talk sport radio last week ani connect think coincid
+[[ SPAM SALAH >  451  :  latest news polic station toilet stolen cop noth go
+[[ HAM SALAH >  477  :  dhoni luck win big titl win
+[[ SPAM SALAH >  542  :  ask 3mobil 0 87 0 chatlin inclu free min india cust serv sed ye l8er got mega bill 3 dont giv shit bailiff due day 25 0 3 want 8 0 0
+[[[ akurasi total  0.9912891986062717
+[[[ akurasi total ham  0.996
+[[[ akurasi total spam  0.9594594594594594
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9912891986062717
+============================= sgd  - Combination  B6 =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : sgd
+[[ HAM SALAH >  159  :  k k sm chat
+[[ SPAM SALAH >  372  :  date two onli start sent text talk sport radio last week ani connect think coincid
+[[ SPAM SALAH >  451  :  latest news polic station toilet stolen cop noth go
+[[ HAM SALAH >  477  :  dhoni luck win big titl win
+[[ SPAM SALAH >  542  :  ask 3mobil 0 87 0 chatlin inclu free min india cust serv sed ye l8er got mega bill 3 dont giv shit bailiff due day 25 0 3 want 8 0 0
+[[[ akurasi total  0.9912891986062717
+[[[ akurasi total ham  0.996
+[[[ akurasi total spam  0.9594594594594594
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9912891986062717
+============================= sgd  - Combination  B7 =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : sgd
+[[ HAM SALAH >  159  :  k k sm chat
+[[ SPAM SALAH >  372  :  date two onli start sent text talk sport radio last week ani connect think coincid
+[[ SPAM SALAH >  451  :  latest news polic station toilet stolen cop noth go
+[[ HAM SALAH >  477  :  dhoni luck win big titl win
+[[ SPAM SALAH >  542  :  ask 3mobil 0 87 0 chatlin inclu free min india cust serv sed ye l8er got mega bill 3 dont giv shit bailiff due day 25 0 3 want 8 0 0
+[[[ akurasi total  0.9912891986062717
+[[[ akurasi total ham  0.996
+[[[ akurasi total spam  0.9594594594594594
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9912891986062717
+============================= sgd  - Combination  B8 =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : sgd
+[[ HAM SALAH >  159  :  k k sm chat
+[[ SPAM SALAH >  372  :  date two onli start sent text talk sport radio last week ani connect think coincid
+[[ SPAM SALAH >  451  :  latest news polic station toilet stolen cop noth go
+[[ HAM SALAH >  477  :  dhoni luck win big titl win
+[[ SPAM SALAH >  542  :  ask 3mobil 0 87 0 chatlin inclu free min india cust serv sed ye l8er got mega bill 3 dont giv shit bailiff due day 25 0 3 want 8 0 0
+[[[ akurasi total  0.9912891986062717
+[[[ akurasi total ham  0.996
+[[[ akurasi total spam  0.9594594594594594
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9912891986062717
+============================= sgd  - Combination  D =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : sgd
+[[ HAM SALAH >  96  :  hi shanil rakhesh thank exchange uncut diamond stuff leave back excellent service dino prem
+[[ HAM SALAH >  159  :  k k sms chat
+[[ SPAM SALAH >  372  :  date two start send text talk sport radio last week connection think coincidence
+[[ SPAM SALAH >  451  :  latest news police station toilet steal cop nothing go
+[[ HAM SALAH >  477  :  dhoni luck win big title win
+[[ SPAM SALAH >  542  :  ask 3mobile 0 87 0 chatlines inclu free mins india cust servs sed yes l8er get mega bill 3 dont giv shit bailiff due days 25 0 3 want 8 0 0
+[[[ akurasi total  0.9895470383275261
+[[[ akurasi total ham  0.994
+[[[ akurasi total spam  0.9594594594594594
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9895470383275261
+============================= sgd  - Combination  D2 =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : sgd
+[[ HAM SALAH >  96  :  hi shanil rakhesh thank exchange uncut diamond stuff leave back excellent service dino prem
+[[ HAM SALAH >  159  :  k k sms chat
+[[ SPAM SALAH >  372  :  date two start send text talk sport radio last week connection think coincidence
+[[ SPAM SALAH >  451  :  latest news police station toilet steal cop nothing go
+[[ HAM SALAH >  477  :  dhoni luck win big title win
+[[ SPAM SALAH >  542  :  ask 3mobile 0 87 0 chatlines inclu free mins india cust servs sed yes l8er get mega bill 3 dont giv shit bailiff due days 25 0 3 want 8 0 0
+[[[ akurasi total  0.9895470383275261
+[[[ akurasi total ham  0.994
+[[[ akurasi total spam  0.9594594594594594
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9895470383275261
+============================= sgd  - Combination  D3 =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : sgd
+[[ HAM SALAH >  96  :  hi shanil rakhesh thank exchange uncut diamond stuff leave back excellent service dino prem
+[[ HAM SALAH >  159  :  k k sms chat
+[[ SPAM SALAH >  372  :  date two start send text talk sport radio last week connection think coincidence
+[[ SPAM SALAH >  451  :  latest news police station toilet steal cop nothing go
+[[ HAM SALAH >  477  :  dhoni luck win big title win
+[[ SPAM SALAH >  542  :  ask 3mobile 0 87 0 chatlines inclu free mins india cust servs sed yes l8er get mega bill 3 dont giv shit bailiff due days 25 0 3 want 8 0 0
+[[[ akurasi total  0.9895470383275261
+[[[ akurasi total ham  0.994
+[[[ akurasi total spam  0.9594594594594594
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9895470383275261
+============================= sgd  - Combination  D4 =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : sgd
+[[ HAM SALAH >  96  :  hi shanil rakhesh thank exchange uncut diamond stuff leave back excellent service dino prem
+[[ HAM SALAH >  159  :  k k sms chat
+[[ SPAM SALAH >  372  :  date two start send text talk sport radio last week connection think coincidence
+[[ SPAM SALAH >  451  :  latest news police station toilet steal cop nothing go
+[[ HAM SALAH >  477  :  dhoni luck win big title win
+[[ SPAM SALAH >  542  :  ask 3mobile 0 87 0 chatlines inclu free mins india cust servs sed yes l8er get mega bill 3 dont giv shit bailiff due days 25 0 3 want 8 0 0
+[[[ akurasi total  0.9895470383275261
+[[[ akurasi total ham  0.994
+[[[ akurasi total spam  0.9594594594594594
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9895470383275261
+============================= sgd  - Combination  D5 =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : sgd
+[[ HAM SALAH >  96  :  hi shanil rakhesh thank exchange uncut diamond stuff leave back excellent service dino prem
+[[ HAM SALAH >  159  :  k k sms chat
+[[ SPAM SALAH >  372  :  date two start send text talk sport radio last week connection think coincidence
+[[ SPAM SALAH >  451  :  latest news police station toilet steal cop nothing go
+[[ HAM SALAH >  477  :  dhoni luck win big title win
+[[ SPAM SALAH >  542  :  ask 3mobile 0 87 0 chatlines inclu free mins india cust servs sed yes l8er get mega bill 3 dont giv shit bailiff due days 25 0 3 want 8 0 0
+[[[ akurasi total  0.9895470383275261
+[[[ akurasi total ham  0.994
+[[[ akurasi total spam  0.9594594594594594
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9895470383275261
+============================= sgd  - Combination  D6 =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : sgd
+[[ HAM SALAH >  96  :  hi shanil rakhesh thank exchange uncut diamond stuff leave back excellent service dino prem
+[[ HAM SALAH >  159  :  k k sms chat
+[[ SPAM SALAH >  372  :  date two start send text talk sport radio last week connection think coincidence
+[[ SPAM SALAH >  451  :  latest news police station toilet steal cop nothing go
+[[ HAM SALAH >  477  :  dhoni luck win big title win
+[[ SPAM SALAH >  542  :  ask 3mobile 0 87 0 chatlines inclu free mins india cust servs sed yes l8er get mega bill 3 dont giv shit bailiff due days 25 0 3 want 8 0 0
+[[[ akurasi total  0.9895470383275261
+[[[ akurasi total ham  0.994
+[[[ akurasi total spam  0.9594594594594594
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9895470383275261
+============================= sgd  - Combination  D7 =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : sgd
+[[ HAM SALAH >  96  :  hi shanil rakhesh thank exchange uncut diamond stuff leave back excellent service dino prem
+[[ HAM SALAH >  159  :  k k sms chat
+[[ SPAM SALAH >  372  :  date two start send text talk sport radio last week connection think coincidence
+[[ SPAM SALAH >  451  :  latest news police station toilet steal cop nothing go
+[[ HAM SALAH >  477  :  dhoni luck win big title win
+[[ SPAM SALAH >  542  :  ask 3mobile 0 87 0 chatlines inclu free mins india cust servs sed yes l8er get mega bill 3 dont giv shit bailiff due days 25 0 3 want 8 0 0
+[[[ akurasi total  0.9895470383275261
+[[[ akurasi total ham  0.994
+[[[ akurasi total spam  0.9594594594594594
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9895470383275261
+============================= sgd  - Combination  D8 =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : sgd
+[[ HAM SALAH >  96  :  hi shanil rakhesh thank exchange uncut diamond stuff leave back excellent service dino prem
+[[ HAM SALAH >  159  :  k k sms chat
+[[ SPAM SALAH >  372  :  date two start send text talk sport radio last week connection think coincidence
+[[ SPAM SALAH >  451  :  latest news police station toilet steal cop nothing go
+[[ HAM SALAH >  477  :  dhoni luck win big title win
+[[ SPAM SALAH >  542  :  ask 3mobile 0 87 0 chatlines inclu free mins india cust servs sed yes l8er get mega bill 3 dont giv shit bailiff due days 25 0 3 want 8 0 0
+[[[ akurasi total  0.9895470383275261
+[[[ akurasi total ham  0.994
+[[[ akurasi total spam  0.9594594594594594
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9895470383275261
+============================= sgd  - Combination  F =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : sgd
+[[ HAM SALAH >  159  :  k k sms chat with me
+[[ SPAM SALAH >  372  :  date i have have two of these only start after i send a text to talk sport radio last week any connection do you think or coincidence
+[[ SPAM SALAH >  451  :  latest news police station toilet steal cop have nothing to go on
+[[ HAM SALAH >  477  :  dhoni have luck to win some big title so we will win
+[[ SPAM SALAH >  542  :  ask 3mobile if 0 87 0 chatlines inclu in free mins india cust servs sed yes l8er get mega bill 3 dont giv a shit bailiff due in days i o 25 0 3 want 8 0 0
+[[[ akurasi total  0.9912891986062717
+[[[ akurasi total ham  0.996
+[[[ akurasi total spam  0.9594594594594594
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9912891986062717
+============================= sgd  - Combination  F2 =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : sgd
+[[ HAM SALAH >  159  :  k k sms chat with me
+[[ SPAM SALAH >  372  :  date i have have two of these only start after i send a text to talk sport radio last week any connection do you think or coincidence
+[[ SPAM SALAH >  451  :  latest news police station toilet steal cop have nothing to go on
+[[ HAM SALAH >  477  :  dhoni have luck to win some big title so we will win
+[[ SPAM SALAH >  542  :  ask 3mobile if 0 87 0 chatlines inclu in free mins india cust servs sed yes l8er get mega bill 3 dont giv a shit bailiff due in days i o 25 0 3 want 8 0 0
+[[[ akurasi total  0.9912891986062717
+[[[ akurasi total ham  0.996
+[[[ akurasi total spam  0.9594594594594594
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9912891986062717
+============================= sgd  - Combination  F3 =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : sgd
+[[ HAM SALAH >  159  :  k k sms chat with me
+[[ SPAM SALAH >  372  :  date i have have two of these only start after i send a text to talk sport radio last week any connection do you think or coincidence
+[[ SPAM SALAH >  451  :  latest news police station toilet steal cop have nothing to go on
+[[ HAM SALAH >  477  :  dhoni have luck to win some big title so we will win
+[[ SPAM SALAH >  542  :  ask 3mobile if 0 87 0 chatlines inclu in free mins india cust servs sed yes l8er get mega bill 3 dont giv a shit bailiff due in days i o 25 0 3 want 8 0 0
+[[[ akurasi total  0.9912891986062717
+[[[ akurasi total ham  0.996
+[[[ akurasi total spam  0.9594594594594594
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9912891986062717
+============================= sgd  - Combination  F4 =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : sgd
+[[ HAM SALAH >  159  :  k k sms chat with me
+[[ SPAM SALAH >  372  :  date i have have two of these only start after i send a text to talk sport radio last week any connection do you think or coincidence
+[[ SPAM SALAH >  451  :  latest news police station toilet steal cop have nothing to go on
+[[ HAM SALAH >  477  :  dhoni have luck to win some big title so we will win
+[[ SPAM SALAH >  542  :  ask 3mobile if 0 87 0 chatlines inclu in free mins india cust servs sed yes l8er get mega bill 3 dont giv a shit bailiff due in days i o 25 0 3 want 8 0 0
+[[[ akurasi total  0.9912891986062717
+[[[ akurasi total ham  0.996
+[[[ akurasi total spam  0.9594594594594594
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9912891986062717
+============================= sgd  - Combination  F5 =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : sgd
+[[ HAM SALAH >  159  :  k k sms chat with me
+[[ SPAM SALAH >  372  :  date i have have two of these only start after i send a text to talk sport radio last week any connection do you think or coincidence
+[[ SPAM SALAH >  451  :  latest news police station toilet steal cop have nothing to go on
+[[ HAM SALAH >  477  :  dhoni have luck to win some big title so we will win
+[[ SPAM SALAH >  542  :  ask 3mobile if 0 87 0 chatlines inclu in free mins india cust servs sed yes l8er get mega bill 3 dont giv a shit bailiff due in days i o 25 0 3 want 8 0 0
+[[[ akurasi total  0.9912891986062717
+[[[ akurasi total ham  0.996
+[[[ akurasi total spam  0.9594594594594594
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9912891986062717
+============================= sgd  - Combination  F6 =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : sgd
+[[ HAM SALAH >  159  :  k k sms chat with me
+[[ SPAM SALAH >  372  :  date i have have two of these only start after i send a text to talk sport radio last week any connection do you think or coincidence
+[[ SPAM SALAH >  451  :  latest news police station toilet steal cop have nothing to go on
+[[ HAM SALAH >  477  :  dhoni have luck to win some big title so we will win
+[[ SPAM SALAH >  542  :  ask 3mobile if 0 87 0 chatlines inclu in free mins india cust servs sed yes l8er get mega bill 3 dont giv a shit bailiff due in days i o 25 0 3 want 8 0 0
+[[[ akurasi total  0.9912891986062717
+[[[ akurasi total ham  0.996
+[[[ akurasi total spam  0.9594594594594594
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9912891986062717
+============================= sgd  - Combination  F7 =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : sgd
+[[ HAM SALAH >  159  :  k k sms chat with me
+[[ SPAM SALAH >  372  :  date i have have two of these only start after i send a text to talk sport radio last week any connection do you think or coincidence
+[[ SPAM SALAH >  451  :  latest news police station toilet steal cop have nothing to go on
+[[ HAM SALAH >  477  :  dhoni have luck to win some big title so we will win
+[[ SPAM SALAH >  542  :  ask 3mobile if 0 87 0 chatlines inclu in free mins india cust servs sed yes l8er get mega bill 3 dont giv a shit bailiff due in days i o 25 0 3 want 8 0 0
+[[[ akurasi total  0.9912891986062717
+[[[ akurasi total ham  0.996
+[[[ akurasi total spam  0.9594594594594594
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9912891986062717
+============================= sgd  - Combination  F8 =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : sgd
+[[ HAM SALAH >  159  :  k k sms chat with me
+[[ SPAM SALAH >  372  :  date i have have two of these only start after i send a text to talk sport radio last week any connection do you think or coincidence
+[[ SPAM SALAH >  451  :  latest news police station toilet steal cop have nothing to go on
+[[ HAM SALAH >  477  :  dhoni have luck to win some big title so we will win
+[[ SPAM SALAH >  542  :  ask 3mobile if 0 87 0 chatlines inclu in free mins india cust servs sed yes l8er get mega bill 3 dont giv a shit bailiff due in days i o 25 0 3 want 8 0 0
+[[[ akurasi total  0.9912891986062717
+[[[ akurasi total ham  0.996
+[[[ akurasi total spam  0.9594594594594594
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9912891986062717
+time :  41.2648822576653
+
+Process finished with exit code 0

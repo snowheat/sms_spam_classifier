@@ -8,10 +8,6 @@ algorithm = 'sgd'
 
 #algorithm = input("Choose algorithm: ")
 
-spamClassifier = SpamClassifier(combination='B8', algorithm=algorithm, stemming=True, lemma=False, zero=True, stopwords=True, normalization=False,
-                                tfidf_max_features=1000, svd_max_features=500)
-spamClassifier.train()
-spamClassifier.test()
 
 
 """
@@ -35,7 +31,7 @@ spamClassifier.train()
 spamClassifier.test()
 """
 
-"""
+
 
 spamClassifier = SpamClassifier(combination='B', algorithm=algorithm, stemming=True, lemma=False, zero=True, stopwords=True, normalization=False)
 spamClassifier.train()
@@ -159,7 +155,7 @@ spamClassifier = SpamClassifier(combination='F8', algorithm=algorithm, stemming=
 spamClassifier.train()
 spamClassifier.test()
 
-"""
+
 
 
 stop = timeit.default_timer()

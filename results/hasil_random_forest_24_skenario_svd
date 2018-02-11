@@ -1,0 +1,903 @@
+C:\Users\insan\.conda\envs\nlp2018\python.exe "F:/S2/IF5282 Pemrosesan Bahasa Alami/tugas2/main.py"
+============================= random_forest  - Combination  B =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : random_forest
+[[ HAM SALAH >  10  :  mobil number pl sm ur mail id convey regard achan amma rakhesh qatar
+[[ SPAM SALAH >  30  :  i'd like tell deepest darkest fantasi call 0 9 0 94646631 6 0 p min stop text call 0 871246 0 324 nat rate
+[[ SPAM SALAH >  68  :  83 0 39 62735 45 0 uk break accommodationvouch term condit appli 2 claim mustprovid claim number 15541
+[[ SPAM SALAH >  73  :  win 2 0 0 shop spree everi week start 2 play text store 88 0 39 skilgm tsc 0 871474 0 323 1winawk age16 1 5 0 perweeksub
+[[ SPAM SALAH >  76  :  thi 2nd attempt contract u thi week top prize either 1 0 0 0 cash 2 0 0 prize call 0 9 0 66361921
+[[ SPAM SALAH >  100  :  themob hit link get premium pink panther game new 1 sugabab crazi zebra anim badass hoodi wallpap 4 free
+[[ SPAM SALAH >  104  :  thi msg mobil content order ha resent previou attempt fail due network error queri customersqueries@netvis uk com
+[[ SPAM SALAH >  112  :  1 new messag pleas call 0 87152 0 5273
+[[ SPAM SALAH >  122  :  privat 2 0 0 3 account statement 0 78
+[[ SPAM SALAH >  149  :  get garden readi summer free select summer bulb seed worth 33 5 0 onli scotsman thi saturday stop go2 notxt co uk
+[[ SPAM SALAH >  366  :  call 0 9 0 9535 0 3 0 1 send girl erot ecstaci 6 0 p min stop text call 0 871246 0 324 nat rate
+[[ SPAM SALAH >  370  :  import messag thi final contact attempt import messag wait custom claim dept expir 13 4 0 4 call 0 87175 0 7382
+[[ SPAM SALAH >  372  :  date two onli start sent text talk sport radio last week ani connect think coincid
+[[ SPAM SALAH >  379  :  current lead bid 151 paus thi auction send custom care 0 871872627 0
+[[ SPAM SALAH >  383  :  1 new messag call 0 2 0 7 0 83 6 0 89
+[[ SPAM SALAH >  429  :  santa call would littl one like call santa xma eve call 0 9 0 58 0 94583 book time
+[[ SPAM SALAH >  445  :  guarante 32 0 0 0 award mayb even 1 0 0 0 cash claim ur award call free 0 8 0 0 18 legitimat efreefon number wat u think
+[[ SPAM SALAH >  451  :  latest news polic station toilet stolen cop noth go
+[[ SPAM SALAH >  458  :  sparkl shop break 45 per person call 0 121 2 0 25 0 5 0 visit www shortbreak org uk
+[[ SPAM SALAH >  464  :  txt call 86888 claim reward 3 hour talk time use phone subscribe6gbp mnth inc 3hr 16 stop txtstop www gamb tv
+[[ SPAM SALAH >  468  :  http tm widel com index wml id 82 0 554ad 0 a17 0 5572711 first true c c rington
+[[ SPAM SALAH >  469  :  get garden readi summer free select summer bulb seed worth 33 5 0 onli scotsman thi saturday stop go2 notxt co uk
+[[ SPAM SALAH >  470  :  urgent last weekend' draw show 1 0 0 0 cash spanish holiday call 0 9 0 5 0 0 0 0 332 claim c rstm sw7 3ss 15 0 ppm
+[[ SPAM SALAH >  489  :  2p per min call germani 0 844835 0 0 55 bt line 2p per min check planettalkinst com info t' c' text stop opt
+[[ SPAM SALAH >  494  :  marvel mobil play offici ultim spider man game 4 5 0 ur mobil right text spider 83338 game send u free 8ball wallpap
+[[ SPAM SALAH >  542  :  ask 3mobil 0 87 0 chatlin inclu free min india cust serv sed ye l8er got mega bill 3 dont giv shit bailiff due day 25 0 3 want 8 0 0
+[[[ akurasi total  0.9547038327526133
+[[[ akurasi total ham  0.998
+[[[ akurasi total spam  0.6621621621621622
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9547038327526133
+============================= random_forest  - Combination  B2 =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : random_forest
+[[ SPAM SALAH >  30  :  i'd like tell deepest darkest fantasi call 0 9 0 94646631 6 0 p min stop text call 0 871246 0 324 nat rate
+[[ SPAM SALAH >  43  :  jamster get free wallpap text heart 88888 c appli 16 onli need help call 0 87 0 1213186
+[[ SPAM SALAH >  68  :  83 0 39 62735 45 0 uk break accommodationvouch term condit appli 2 claim mustprovid claim number 15541
+[[ SPAM SALAH >  73  :  win 2 0 0 shop spree everi week start 2 play text store 88 0 39 skilgm tsc 0 871474 0 323 1winawk age16 1 5 0 perweeksub
+[[ SPAM SALAH >  76  :  thi 2nd attempt contract u thi week top prize either 1 0 0 0 cash 2 0 0 prize call 0 9 0 66361921
+[[ SPAM SALAH >  100  :  themob hit link get premium pink panther game new 1 sugabab crazi zebra anim badass hoodi wallpap 4 free
+[[ SPAM SALAH >  104  :  thi msg mobil content order ha resent previou attempt fail due network error queri customersqueries@netvis uk com
+[[ SPAM SALAH >  112  :  1 new messag pleas call 0 87152 0 5273
+[[ SPAM SALAH >  122  :  privat 2 0 0 3 account statement 0 78
+[[ SPAM SALAH >  149  :  get garden readi summer free select summer bulb seed worth 33 5 0 onli scotsman thi saturday stop go2 notxt co uk
+[[ SPAM SALAH >  202  :  call germani onli 1 penc per minut call fix line via access number 0 844 861 85 85 prepay direct access www telediscount co uk
+[[ SPAM SALAH >  294  :  urgent pleas call 0 9 0 61213237 landlin 5 0 0 0 cash luxuri 4 canari island holiday await collect cs sae po box 177 m227xi 15 0 ppm 16
+[[ SPAM SALAH >  370  :  import messag thi final contact attempt import messag wait custom claim dept expir 13 4 0 4 call 0 87175 0 7382
+[[ SPAM SALAH >  372  :  date two onli start sent text talk sport radio last week ani connect think coincid
+[[ SPAM SALAH >  379  :  current lead bid 151 paus thi auction send custom care 0 871872627 0
+[[ SPAM SALAH >  383  :  1 new messag call 0 2 0 7 0 83 6 0 89
+[[ SPAM SALAH >  429  :  santa call would littl one like call santa xma eve call 0 9 0 58 0 94583 book time
+[[ SPAM SALAH >  451  :  latest news polic station toilet stolen cop noth go
+[[ SPAM SALAH >  468  :  http tm widel com index wml id 82 0 554ad 0 a17 0 5572711 first true c c rington
+[[ SPAM SALAH >  469  :  get garden readi summer free select summer bulb seed worth 33 5 0 onli scotsman thi saturday stop go2 notxt co uk
+[[ SPAM SALAH >  489  :  2p per min call germani 0 844835 0 0 55 bt line 2p per min check planettalkinst com info t' c' text stop opt
+[[ SPAM SALAH >  494  :  marvel mobil play offici ultim spider man game 4 5 0 ur mobil right text spider 83338 game send u free 8ball wallpap
+[[ SPAM SALAH >  539  :  want explicit sex 3 0 sec ring 0 2 0 73162414 cost 2 0 p min gsex pobox 2667 wc1n 3xx
+[[ SPAM SALAH >  542  :  ask 3mobil 0 87 0 chatlin inclu free min india cust serv sed ye l8er got mega bill 3 dont giv shit bailiff due day 25 0 3 want 8 0 0
+[[ SPAM SALAH >  568  :  remind o2 get 2 5 0 pound free call credit detail great offer pl repli 2 thi text valid name hous postcod
+[[[ akurasi total  0.9564459930313589
+[[[ akurasi total ham  1.0
+[[[ akurasi total spam  0.6621621621621622
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9564459930313589
+============================= random_forest  - Combination  B3 =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : random_forest
+[[ SPAM SALAH >  4  :  cd 4u congratul ur award 5 0 0 cd gift voucher 125 gift guarante freeentri 2 1 0 0 wkli draw xt music 87 0 66 tnc www ldew com1win15 0 ppmx3age16
+[[ SPAM SALAH >  41  :  natali 2 0 f invit friend repli ye 165 165 see www sm ac u natalie2k9 stop send stop frnd 62468
+[[ SPAM SALAH >  43  :  jamster get free wallpap text heart 88888 c appli 16 onli need help call 0 87 0 1213186
+[[ SPAM SALAH >  68  :  83 0 39 62735 45 0 uk break accommodationvouch term condit appli 2 claim mustprovid claim number 15541
+[[ SPAM SALAH >  73  :  win 2 0 0 shop spree everi week start 2 play text store 88 0 39 skilgm tsc 0 871474 0 323 1winawk age16 1 5 0 perweeksub
+[[ SPAM SALAH >  100  :  themob hit link get premium pink panther game new 1 sugabab crazi zebra anim badass hoodi wallpap 4 free
+[[ SPAM SALAH >  104  :  thi msg mobil content order ha resent previou attempt fail due network error queri customersqueries@netvis uk com
+[[ SPAM SALAH >  112  :  1 new messag pleas call 0 87152 0 5273
+[[ SPAM SALAH >  122  :  privat 2 0 0 3 account statement 0 78
+[[ SPAM SALAH >  149  :  get garden readi summer free select summer bulb seed worth 33 5 0 onli scotsman thi saturday stop go2 notxt co uk
+[[ SPAM SALAH >  370  :  import messag thi final contact attempt import messag wait custom claim dept expir 13 4 0 4 call 0 87175 0 7382
+[[ SPAM SALAH >  372  :  date two onli start sent text talk sport radio last week ani connect think coincid
+[[ SPAM SALAH >  379  :  current lead bid 151 paus thi auction send custom care 0 871872627 0
+[[ SPAM SALAH >  383  :  1 new messag call 0 2 0 7 0 83 6 0 89
+[[ SPAM SALAH >  429  :  santa call would littl one like call santa xma eve call 0 9 0 58 0 94583 book time
+[[ SPAM SALAH >  451  :  latest news polic station toilet stolen cop noth go
+[[ SPAM SALAH >  464  :  txt call 86888 claim reward 3 hour talk time use phone subscribe6gbp mnth inc 3hr 16 stop txtstop www gamb tv
+[[ SPAM SALAH >  468  :  http tm widel com index wml id 82 0 554ad 0 a17 0 5572711 first true c c rington
+[[ SPAM SALAH >  469  :  get garden readi summer free select summer bulb seed worth 33 5 0 onli scotsman thi saturday stop go2 notxt co uk
+[[ SPAM SALAH >  470  :  urgent last weekend' draw show 1 0 0 0 cash spanish holiday call 0 9 0 5 0 0 0 0 332 claim c rstm sw7 3ss 15 0 ppm
+[[ SPAM SALAH >  484  :  urgent tri contact last weekend draw show u 1 0 0 0 prize guarante call 0 9 0 64 0 17295 claim code k52 valid 12hr 15 0 p pm
+[[ SPAM SALAH >  494  :  marvel mobil play offici ultim spider man game 4 5 0 ur mobil right text spider 83338 game send u free 8ball wallpap
+[[ SPAM SALAH >  542  :  ask 3mobil 0 87 0 chatlin inclu free min india cust serv sed ye l8er got mega bill 3 dont giv shit bailiff due day 25 0 3 want 8 0 0
+[[ SPAM SALAH >  568  :  remind o2 get 2 5 0 pound free call credit detail great offer pl repli 2 thi text valid name hous postcod
+[[ SPAM SALAH >  569  :  thi 2nd time tri 2 contact u u 75 0 pound prize 2 claim easi call 0 87187272 0 0 8 now1 onli 1 0 p per minut bt nation rate
+[[[ akurasi total  0.9564459930313589
+[[[ akurasi total ham  1.0
+[[[ akurasi total spam  0.6621621621621622
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9564459930313589
+============================= random_forest  - Combination  B4 =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : random_forest
+[[ SPAM SALAH >  30  :  i'd like tell deepest darkest fantasi call 0 9 0 94646631 6 0 p min stop text call 0 871246 0 324 nat rate
+[[ SPAM SALAH >  43  :  jamster get free wallpap text heart 88888 c appli 16 onli need help call 0 87 0 1213186
+[[ SPAM SALAH >  68  :  83 0 39 62735 45 0 uk break accommodationvouch term condit appli 2 claim mustprovid claim number 15541
+[[ SPAM SALAH >  73  :  win 2 0 0 shop spree everi week start 2 play text store 88 0 39 skilgm tsc 0 871474 0 323 1winawk age16 1 5 0 perweeksub
+[[ SPAM SALAH >  100  :  themob hit link get premium pink panther game new 1 sugabab crazi zebra anim badass hoodi wallpap 4 free
+[[ SPAM SALAH >  104  :  thi msg mobil content order ha resent previou attempt fail due network error queri customersqueries@netvis uk com
+[[ SPAM SALAH >  112  :  1 new messag pleas call 0 87152 0 5273
+[[ SPAM SALAH >  122  :  privat 2 0 0 3 account statement 0 78
+[[ SPAM SALAH >  149  :  get garden readi summer free select summer bulb seed worth 33 5 0 onli scotsman thi saturday stop go2 notxt co uk
+[[ HAM SALAH >  361  :  thi ur face test 1 2 3 4 5 6 7 8 9 lt gt select ani number tell ur face astrolog wait quick repli
+[[ SPAM SALAH >  366  :  call 0 9 0 9535 0 3 0 1 send girl erot ecstaci 6 0 p min stop text call 0 871246 0 324 nat rate
+[[ SPAM SALAH >  372  :  date two onli start sent text talk sport radio last week ani connect think coincid
+[[ SPAM SALAH >  379  :  current lead bid 151 paus thi auction send custom care 0 871872627 0
+[[ SPAM SALAH >  380  :  free entri gr8prize wkli comp 4 chanc win latest nokia 88 0 0 psp 25 0 cash everi wk txt great 8 0 878 http www gr8prize com 0 87157 0 5 0 22
+[[ SPAM SALAH >  429  :  santa call would littl one like call santa xma eve call 0 9 0 58 0 94583 book time
+[[ SPAM SALAH >  451  :  latest news polic station toilet stolen cop noth go
+[[ SPAM SALAH >  464  :  txt call 86888 claim reward 3 hour talk time use phone subscribe6gbp mnth inc 3hr 16 stop txtstop www gamb tv
+[[ SPAM SALAH >  468  :  http tm widel com index wml id 82 0 554ad 0 a17 0 5572711 first true c c rington
+[[ SPAM SALAH >  469  :  get garden readi summer free select summer bulb seed worth 33 5 0 onli scotsman thi saturday stop go2 notxt co uk
+[[ SPAM SALAH >  489  :  2p per min call germani 0 844835 0 0 55 bt line 2p per min check planettalkinst com info t' c' text stop opt
+[[ SPAM SALAH >  494  :  marvel mobil play offici ultim spider man game 4 5 0 ur mobil right text spider 83338 game send u free 8ball wallpap
+[[ SPAM SALAH >  539  :  want explicit sex 3 0 sec ring 0 2 0 73162414 cost 2 0 p min gsex pobox 2667 wc1n 3xx
+[[ SPAM SALAH >  542  :  ask 3mobil 0 87 0 chatlin inclu free min india cust serv sed ye l8er got mega bill 3 dont giv shit bailiff due day 25 0 3 want 8 0 0
+[[[ akurasi total  0.9599303135888502
+[[[ akurasi total ham  0.998
+[[[ akurasi total spam  0.7027027027027027
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9599303135888502
+============================= random_forest  - Combination  B5 =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : random_forest
+[[ SPAM SALAH >  30  :  i'd like tell deepest darkest fantasi call 0 9 0 94646631 6 0 p min stop text call 0 871246 0 324 nat rate
+[[ SPAM SALAH >  43  :  jamster get free wallpap text heart 88888 c appli 16 onli need help call 0 87 0 1213186
+[[ SPAM SALAH >  68  :  83 0 39 62735 45 0 uk break accommodationvouch term condit appli 2 claim mustprovid claim number 15541
+[[ SPAM SALAH >  73  :  win 2 0 0 shop spree everi week start 2 play text store 88 0 39 skilgm tsc 0 871474 0 323 1winawk age16 1 5 0 perweeksub
+[[ SPAM SALAH >  100  :  themob hit link get premium pink panther game new 1 sugabab crazi zebra anim badass hoodi wallpap 4 free
+[[ SPAM SALAH >  104  :  thi msg mobil content order ha resent previou attempt fail due network error queri customersqueries@netvis uk com
+[[ SPAM SALAH >  112  :  1 new messag pleas call 0 87152 0 5273
+[[ SPAM SALAH >  122  :  privat 2 0 0 3 account statement 0 78
+[[ SPAM SALAH >  149  :  get garden readi summer free select summer bulb seed worth 33 5 0 onli scotsman thi saturday stop go2 notxt co uk
+[[ SPAM SALAH >  180  :  sm auction brand new nokia 725 0 4 auction today auction free 2 join take part txt nokia 86 0 21
+[[ SPAM SALAH >  296  :  xma iscom ur award either 5 0 0 cd gift voucher free entri 2 r 1 0 0 weekli draw txt music 87 0 66 tnc www ldew com1win15 0 ppmx3age16subscript
+[[ SPAM SALAH >  370  :  import messag thi final contact attempt import messag wait custom claim dept expir 13 4 0 4 call 0 87175 0 7382
+[[ SPAM SALAH >  372  :  date two onli start sent text talk sport radio last week ani connect think coincid
+[[ SPAM SALAH >  379  :  current lead bid 151 paus thi auction send custom care 0 871872627 0
+[[ SPAM SALAH >  383  :  1 new messag call 0 2 0 7 0 83 6 0 89
+[[ SPAM SALAH >  429  :  santa call would littl one like call santa xma eve call 0 9 0 58 0 94583 book time
+[[ SPAM SALAH >  445  :  guarante 32 0 0 0 award mayb even 1 0 0 0 cash claim ur award call free 0 8 0 0 18 legitimat efreefon number wat u think
+[[ SPAM SALAH >  451  :  latest news polic station toilet stolen cop noth go
+[[ SPAM SALAH >  458  :  sparkl shop break 45 per person call 0 121 2 0 25 0 5 0 visit www shortbreak org uk
+[[ SPAM SALAH >  464  :  txt call 86888 claim reward 3 hour talk time use phone subscribe6gbp mnth inc 3hr 16 stop txtstop www gamb tv
+[[ SPAM SALAH >  468  :  http tm widel com index wml id 82 0 554ad 0 a17 0 5572711 first true c c rington
+[[ SPAM SALAH >  469  :  get garden readi summer free select summer bulb seed worth 33 5 0 onli scotsman thi saturday stop go2 notxt co uk
+[[ SPAM SALAH >  489  :  2p per min call germani 0 844835 0 0 55 bt line 2p per min check planettalkinst com info t' c' text stop opt
+[[ SPAM SALAH >  494  :  marvel mobil play offici ultim spider man game 4 5 0 ur mobil right text spider 83338 game send u free 8ball wallpap
+[[ SPAM SALAH >  539  :  want explicit sex 3 0 sec ring 0 2 0 73162414 cost 2 0 p min gsex pobox 2667 wc1n 3xx
+[[ SPAM SALAH >  542  :  ask 3mobil 0 87 0 chatlin inclu free min india cust serv sed ye l8er got mega bill 3 dont giv shit bailiff due day 25 0 3 want 8 0 0
+[[ SPAM SALAH >  568  :  remind o2 get 2 5 0 pound free call credit detail great offer pl repli 2 thi text valid name hous postcod
+[[[ akurasi total  0.9529616724738676
+[[[ akurasi total ham  1.0
+[[[ akurasi total spam  0.6351351351351351
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9529616724738676
+============================= random_forest  - Combination  B6 =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : random_forest
+[[ SPAM SALAH >  30  :  i'd like tell deepest darkest fantasi call 0 9 0 94646631 6 0 p min stop text call 0 871246 0 324 nat rate
+[[ SPAM SALAH >  41  :  natali 2 0 f invit friend repli ye 165 165 see www sm ac u natalie2k9 stop send stop frnd 62468
+[[ SPAM SALAH >  43  :  jamster get free wallpap text heart 88888 c appli 16 onli need help call 0 87 0 1213186
+[[ SPAM SALAH >  68  :  83 0 39 62735 45 0 uk break accommodationvouch term condit appli 2 claim mustprovid claim number 15541
+[[ SPAM SALAH >  73  :  win 2 0 0 shop spree everi week start 2 play text store 88 0 39 skilgm tsc 0 871474 0 323 1winawk age16 1 5 0 perweeksub
+[[ SPAM SALAH >  76  :  thi 2nd attempt contract u thi week top prize either 1 0 0 0 cash 2 0 0 prize call 0 9 0 66361921
+[[ SPAM SALAH >  100  :  themob hit link get premium pink panther game new 1 sugabab crazi zebra anim badass hoodi wallpap 4 free
+[[ SPAM SALAH >  104  :  thi msg mobil content order ha resent previou attempt fail due network error queri customersqueries@netvis uk com
+[[ SPAM SALAH >  112  :  1 new messag pleas call 0 87152 0 5273
+[[ SPAM SALAH >  122  :  privat 2 0 0 3 account statement 0 78
+[[ SPAM SALAH >  149  :  get garden readi summer free select summer bulb seed worth 33 5 0 onli scotsman thi saturday stop go2 notxt co uk
+[[ SPAM SALAH >  192  :  record indic u mayb entitl 5 0 0 0 pound compens accid claim 4 free repli claim thi msg 2 stop txt stop
+[[ SPAM SALAH >  207  :  mobil 11mth updat free orang latest colour camera mobil unlimit weekend call call mobil upd8 freefon 0 8 0 0 0 8394 0 2 2stoptxt
+[[ SPAM SALAH >  239  :  someonon know tri contact via date servic find could call mobil landlin 0 9 0 64 0 153 0 7 box334sk38ch
+[[ SPAM SALAH >  294  :  urgent pleas call 0 9 0 61213237 landlin 5 0 0 0 cash luxuri 4 canari island holiday await collect cs sae po box 177 m227xi 15 0 ppm 16
+[[ SPAM SALAH >  366  :  call 0 9 0 9535 0 3 0 1 send girl erot ecstaci 6 0 p min stop text call 0 871246 0 324 nat rate
+[[ SPAM SALAH >  368  :  4 0 0 xma reward wait comput ha randomli pick loyal mobil custom receiv 4 0 0 reward call 0 9 0 6638 0 611
+[[ SPAM SALAH >  370  :  import messag thi final contact attempt import messag wait custom claim dept expir 13 4 0 4 call 0 87175 0 7382
+[[ SPAM SALAH >  372  :  date two onli start sent text talk sport radio last week ani connect think coincid
+[[ SPAM SALAH >  379  :  current lead bid 151 paus thi auction send custom care 0 871872627 0
+[[ SPAM SALAH >  383  :  1 new messag call 0 2 0 7 0 83 6 0 89
+[[ SPAM SALAH >  429  :  santa call would littl one like call santa xma eve call 0 9 0 58 0 94583 book time
+[[ SPAM SALAH >  445  :  guarante 32 0 0 0 award mayb even 1 0 0 0 cash claim ur award call free 0 8 0 0 18 legitimat efreefon number wat u think
+[[ SPAM SALAH >  451  :  latest news polic station toilet stolen cop noth go
+[[ SPAM SALAH >  458  :  sparkl shop break 45 per person call 0 121 2 0 25 0 5 0 visit www shortbreak org uk
+[[ SPAM SALAH >  464  :  txt call 86888 claim reward 3 hour talk time use phone subscribe6gbp mnth inc 3hr 16 stop txtstop www gamb tv
+[[ SPAM SALAH >  468  :  http tm widel com index wml id 82 0 554ad 0 a17 0 5572711 first true c c rington
+[[ SPAM SALAH >  469  :  get garden readi summer free select summer bulb seed worth 33 5 0 onli scotsman thi saturday stop go2 notxt co uk
+[[ SPAM SALAH >  470  :  urgent last weekend' draw show 1 0 0 0 cash spanish holiday call 0 9 0 5 0 0 0 0 332 claim c rstm sw7 3ss 15 0 ppm
+[[ SPAM SALAH >  489  :  2p per min call germani 0 844835 0 0 55 bt line 2p per min check planettalkinst com info t' c' text stop opt
+[[ SPAM SALAH >  494  :  marvel mobil play offici ultim spider man game 4 5 0 ur mobil right text spider 83338 game send u free 8ball wallpap
+[[ SPAM SALAH >  539  :  want explicit sex 3 0 sec ring 0 2 0 73162414 cost 2 0 p min gsex pobox 2667 wc1n 3xx
+[[ SPAM SALAH >  542  :  ask 3mobil 0 87 0 chatlin inclu free min india cust serv sed ye l8er got mega bill 3 dont giv shit bailiff due day 25 0 3 want 8 0 0
+[[ SPAM SALAH >  568  :  remind o2 get 2 5 0 pound free call credit detail great offer pl repli 2 thi text valid name hous postcod
+[[[ akurasi total  0.9407665505226481
+[[[ akurasi total ham  1.0
+[[[ akurasi total spam  0.5405405405405406
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9407665505226481
+============================= random_forest  - Combination  B7 =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : random_forest
+[[ SPAM SALAH >  30  :  i'd like tell deepest darkest fantasi call 0 9 0 94646631 6 0 p min stop text call 0 871246 0 324 nat rate
+[[ SPAM SALAH >  43  :  jamster get free wallpap text heart 88888 c appli 16 onli need help call 0 87 0 1213186
+[[ SPAM SALAH >  68  :  83 0 39 62735 45 0 uk break accommodationvouch term condit appli 2 claim mustprovid claim number 15541
+[[ SPAM SALAH >  71  :  5p 4 alfi moon' children need song ur mob tell ur m8 txt tone chariti 8 0 0 7 nokia poli chariti poli zed 0 87 0 1417 0 12 profit 2 chariti
+[[ SPAM SALAH >  73  :  win 2 0 0 shop spree everi week start 2 play text store 88 0 39 skilgm tsc 0 871474 0 323 1winawk age16 1 5 0 perweeksub
+[[ SPAM SALAH >  100  :  themob hit link get premium pink panther game new 1 sugabab crazi zebra anim badass hoodi wallpap 4 free
+[[ SPAM SALAH >  104  :  thi msg mobil content order ha resent previou attempt fail due network error queri customersqueries@netvis uk com
+[[ SPAM SALAH >  112  :  1 new messag pleas call 0 87152 0 5273
+[[ SPAM SALAH >  122  :  privat 2 0 0 3 account statement 0 78
+[[ SPAM SALAH >  149  :  get garden readi summer free select summer bulb seed worth 33 5 0 onli scotsman thi saturday stop go2 notxt co uk
+[[ SPAM SALAH >  192  :  record indic u mayb entitl 5 0 0 0 pound compens accid claim 4 free repli claim thi msg 2 stop txt stop
+[[ SPAM SALAH >  239  :  someonon know tri contact via date servic find could call mobil landlin 0 9 0 64 0 153 0 7 box334sk38ch
+[[ SPAM SALAH >  344  :  u r subscrib 2 textcomp 25 0 wkli comp 1st wk free question follow subsequ wk charged@15 0 p msg 2 unsubscrib txt stop 2 84128 custcar 0 87124 0 5 0 2 0
+[[ SPAM SALAH >  368  :  4 0 0 xma reward wait comput ha randomli pick loyal mobil custom receiv 4 0 0 reward call 0 9 0 6638 0 611
+[[ SPAM SALAH >  372  :  date two onli start sent text talk sport radio last week ani connect think coincid
+[[ SPAM SALAH >  379  :  current lead bid 151 paus thi auction send custom care 0 871872627 0
+[[ SPAM SALAH >  383  :  1 new messag call 0 2 0 7 0 83 6 0 89
+[[ SPAM SALAH >  429  :  santa call would littl one like call santa xma eve call 0 9 0 58 0 94583 book time
+[[ SPAM SALAH >  451  :  latest news polic station toilet stolen cop noth go
+[[ SPAM SALAH >  458  :  sparkl shop break 45 per person call 0 121 2 0 25 0 5 0 visit www shortbreak org uk
+[[ SPAM SALAH >  468  :  http tm widel com index wml id 82 0 554ad 0 a17 0 5572711 first true c c rington
+[[ SPAM SALAH >  469  :  get garden readi summer free select summer bulb seed worth 33 5 0 onli scotsman thi saturday stop go2 notxt co uk
+[[ SPAM SALAH >  489  :  2p per min call germani 0 844835 0 0 55 bt line 2p per min check planettalkinst com info t' c' text stop opt
+[[ SPAM SALAH >  494  :  marvel mobil play offici ultim spider man game 4 5 0 ur mobil right text spider 83338 game send u free 8ball wallpap
+[[ SPAM SALAH >  539  :  want explicit sex 3 0 sec ring 0 2 0 73162414 cost 2 0 p min gsex pobox 2667 wc1n 3xx
+[[ SPAM SALAH >  542  :  ask 3mobil 0 87 0 chatlin inclu free min india cust serv sed ye l8er got mega bill 3 dont giv shit bailiff due day 25 0 3 want 8 0 0
+[[ SPAM SALAH >  568  :  remind o2 get 2 5 0 pound free call credit detail great offer pl repli 2 thi text valid name hous postcod
+[[[ akurasi total  0.9529616724738676
+[[[ akurasi total ham  1.0
+[[[ akurasi total spam  0.6351351351351351
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9529616724738676
+============================= random_forest  - Combination  B8 =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : random_forest
+[[ SPAM SALAH >  30  :  i'd like tell deepest darkest fantasi call 0 9 0 94646631 6 0 p min stop text call 0 871246 0 324 nat rate
+[[ SPAM SALAH >  41  :  natali 2 0 f invit friend repli ye 165 165 see www sm ac u natalie2k9 stop send stop frnd 62468
+[[ SPAM SALAH >  71  :  5p 4 alfi moon' children need song ur mob tell ur m8 txt tone chariti 8 0 0 7 nokia poli chariti poli zed 0 87 0 1417 0 12 profit 2 chariti
+[[ SPAM SALAH >  76  :  thi 2nd attempt contract u thi week top prize either 1 0 0 0 cash 2 0 0 prize call 0 9 0 66361921
+[[ SPAM SALAH >  100  :  themob hit link get premium pink panther game new 1 sugabab crazi zebra anim badass hoodi wallpap 4 free
+[[ SPAM SALAH >  112  :  1 new messag pleas call 0 87152 0 5273
+[[ SPAM SALAH >  122  :  privat 2 0 0 3 account statement 0 78
+[[ SPAM SALAH >  149  :  get garden readi summer free select summer bulb seed worth 33 5 0 onli scotsman thi saturday stop go2 notxt co uk
+[[ HAM SALAH >  159  :  k k sm chat
+[[ HAM SALAH >  324  :  thank i'll keep mind
+[[ SPAM SALAH >  366  :  call 0 9 0 9535 0 3 0 1 send girl erot ecstaci 6 0 p min stop text call 0 871246 0 324 nat rate
+[[ SPAM SALAH >  372  :  date two onli start sent text talk sport radio last week ani connect think coincid
+[[ SPAM SALAH >  379  :  current lead bid 151 paus thi auction send custom care 0 871872627 0
+[[ SPAM SALAH >  383  :  1 new messag call 0 2 0 7 0 83 6 0 89
+[[ SPAM SALAH >  429  :  santa call would littl one like call santa xma eve call 0 9 0 58 0 94583 book time
+[[ SPAM SALAH >  451  :  latest news polic station toilet stolen cop noth go
+[[ SPAM SALAH >  468  :  http tm widel com index wml id 82 0 554ad 0 a17 0 5572711 first true c c rington
+[[ SPAM SALAH >  469  :  get garden readi summer free select summer bulb seed worth 33 5 0 onli scotsman thi saturday stop go2 notxt co uk
+[[ SPAM SALAH >  489  :  2p per min call germani 0 844835 0 0 55 bt line 2p per min check planettalkinst com info t' c' text stop opt
+[[ SPAM SALAH >  539  :  want explicit sex 3 0 sec ring 0 2 0 73162414 cost 2 0 p min gsex pobox 2667 wc1n 3xx
+[[ SPAM SALAH >  542  :  ask 3mobil 0 87 0 chatlin inclu free min india cust serv sed ye l8er got mega bill 3 dont giv shit bailiff due day 25 0 3 want 8 0 0
+[[ SPAM SALAH >  568  :  remind o2 get 2 5 0 pound free call credit detail great offer pl repli 2 thi text valid name hous postcod
+[[[ akurasi total  0.9616724738675958
+[[[ akurasi total ham  0.996
+[[[ akurasi total spam  0.7297297297297297
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9616724738675958
+============================= random_forest  - Combination  D =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : random_forest
+[[ SPAM SALAH >  30  :  would like tell deepest darkest fantasy call 0 9 0 94646631 6 0 p min stop texts call 0 871246 0 324 nat rate
+[[ SPAM SALAH >  43  :  jamster get free wallpaper text heart 88888 c apply 16 need help call 0 87 0 1213186
+[[ SPAM SALAH >  68  :  83 0 39 62735 45 0 uk break accommodationvouchers term condition apply 2 claim mustprovide claim number 15541
+[[ SPAM SALAH >  73  :  win 2 0 0 shop spree every week start 2 play text store 88 0 39 skilgme tscs 0 871474 0 323 1winawk age16 1 5 0 perweeksub
+[[ SPAM SALAH >  100  :  themob hit link get premium pink panther game new 1 sugababes crazy zebra animation badass hoody wallpaper 4 free
+[[ SPAM SALAH >  104  :  msg mobile content order resent previous attempt fail due network error query customersqueries@netvision uk com
+[[ SPAM SALAH >  112  :  1 new message please call 0 87152 0 5273
+[[ SPAM SALAH >  122  :  private 2 0 0 3 account statement 0 78
+[[ SPAM SALAH >  149  :  get garden ready summer free selection summer bulbs seed worth 33 5 0 scotsman saturday stop go2 notxt co uk
+[[ SPAM SALAH >  180  :  sms auction brand new nokia 725 0 4 auction today auction free 2 join take part txt nokia 86 0 21
+[[ SPAM SALAH >  192  :  record indicate u maybe entitle 5 0 0 0 pound compensation accident claim 4 free reply claim msg 2 stop txt stop
+[[ SPAM SALAH >  239  :  someonone know try contact via date service find could call mobile landline 0 9 0 64 0 153 0 7 box334sk38ch
+[[ SPAM SALAH >  344  :  u r subscribe 2 textcomp 25 0 wkly comp 1st wk free question follow subsequent wks charged@15 0 p msg 2 unsubscribe txt stop 2 84128 custcare 0 87124 0 5 0 2 0
+[[ SPAM SALAH >  366  :  call 0 9 0 9535 0 3 0 1 send girls erotic ecstacy 6 0 p min stop texts call 0 871246 0 324 nat rate
+[[ SPAM SALAH >  372  :  date two start send text talk sport radio last week connection think coincidence
+[[ SPAM SALAH >  379  :  current lead bid 151 pause auction send customer care 0 871872627 0
+[[ SPAM SALAH >  383  :  1 new message call 0 2 0 7 0 83 6 0 89
+[[ SPAM SALAH >  429  :  santa call would little ones like call santa xmas eve call 0 9 0 58 0 94583 book time
+[[ SPAM SALAH >  445  :  guarantee 32 0 0 0 award maybe even 1 0 0 0 cash claim ur award call free 0 8 0 0 18 legitimat efreefone number wat u think
+[[ SPAM SALAH >  451  :  latest news police station toilet steal cop nothing go
+[[ SPAM SALAH >  468  :  http tms widelive com index wml id 82 0 554ad 0 a17 0 5572711 first true c c ringtone
+[[ SPAM SALAH >  469  :  get garden ready summer free selection summer bulbs seed worth 33 5 0 scotsman saturday stop go2 notxt co uk
+[[ SPAM SALAH >  489  :  2p per min call germany 0 844835 0 0 55 bt line 2p per min check planettalkinstant com info c text stop opt
+[[ SPAM SALAH >  494  :  marvel mobile play official ultimate spider man game 4 5 0 ur mobile right text spider 83338 game send u free 8ball wallpaper
+[[ SPAM SALAH >  539  :  want explicit sex 3 0 secs ring 0 2 0 73162414 cost 2 0 p min gsex pobox 2667 wc1n 3xx
+[[ SPAM SALAH >  542  :  ask 3mobile 0 87 0 chatlines inclu free mins india cust servs sed yes l8er get mega bill 3 dont giv shit bailiff due days 25 0 3 want 8 0 0
+[[ SPAM SALAH >  568  :  reminder o2 get 2 5 0 pound free call credit detail great offer pls reply 2 text valid name house postcode
+[[[ akurasi total  0.9529616724738676
+[[[ akurasi total ham  1.0
+[[[ akurasi total spam  0.6351351351351351
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9529616724738676
+============================= random_forest  - Combination  D2 =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : random_forest
+[[ HAM SALAH >  1  :  well like actually call someone punto woulda worse
+[[ SPAM SALAH >  30  :  would like tell deepest darkest fantasy call 0 9 0 94646631 6 0 p min stop texts call 0 871246 0 324 nat rate
+[[ SPAM SALAH >  43  :  jamster get free wallpaper text heart 88888 c apply 16 need help call 0 87 0 1213186
+[[ SPAM SALAH >  68  :  83 0 39 62735 45 0 uk break accommodationvouchers term condition apply 2 claim mustprovide claim number 15541
+[[ SPAM SALAH >  73  :  win 2 0 0 shop spree every week start 2 play text store 88 0 39 skilgme tscs 0 871474 0 323 1winawk age16 1 5 0 perweeksub
+[[ SPAM SALAH >  76  :  2nd attempt contract u weeks top prize either 1 0 0 0 cash 2 0 0 prize call 0 9 0 66361921
+[[ SPAM SALAH >  100  :  themob hit link get premium pink panther game new 1 sugababes crazy zebra animation badass hoody wallpaper 4 free
+[[ SPAM SALAH >  104  :  msg mobile content order resent previous attempt fail due network error query customersqueries@netvision uk com
+[[ SPAM SALAH >  112  :  1 new message please call 0 87152 0 5273
+[[ SPAM SALAH >  122  :  private 2 0 0 3 account statement 0 78
+[[ SPAM SALAH >  149  :  get garden ready summer free selection summer bulbs seed worth 33 5 0 scotsman saturday stop go2 notxt co uk
+[[ SPAM SALAH >  344  :  u r subscribe 2 textcomp 25 0 wkly comp 1st wk free question follow subsequent wks charged@15 0 p msg 2 unsubscribe txt stop 2 84128 custcare 0 87124 0 5 0 2 0
+[[ SPAM SALAH >  366  :  call 0 9 0 9535 0 3 0 1 send girls erotic ecstacy 6 0 p min stop texts call 0 871246 0 324 nat rate
+[[ SPAM SALAH >  370  :  important message final contact attempt important message wait customer claim dept expire 13 4 0 4 call 0 87175 0 7382
+[[ SPAM SALAH >  372  :  date two start send text talk sport radio last week connection think coincidence
+[[ SPAM SALAH >  379  :  current lead bid 151 pause auction send customer care 0 871872627 0
+[[ SPAM SALAH >  383  :  1 new message call 0 2 0 7 0 83 6 0 89
+[[ SPAM SALAH >  429  :  santa call would little ones like call santa xmas eve call 0 9 0 58 0 94583 book time
+[[ SPAM SALAH >  445  :  guarantee 32 0 0 0 award maybe even 1 0 0 0 cash claim ur award call free 0 8 0 0 18 legitimat efreefone number wat u think
+[[ SPAM SALAH >  451  :  latest news police station toilet steal cop nothing go
+[[ SPAM SALAH >  464  :  txt call 86888 claim reward 3 hours talk time use phone subscribe6gbp mnth inc 3hrs 16 stop txtstop www gamb tv
+[[ SPAM SALAH >  468  :  http tms widelive com index wml id 82 0 554ad 0 a17 0 5572711 first true c c ringtone
+[[ SPAM SALAH >  469  :  get garden ready summer free selection summer bulbs seed worth 33 5 0 scotsman saturday stop go2 notxt co uk
+[[ SPAM SALAH >  494  :  marvel mobile play official ultimate spider man game 4 5 0 ur mobile right text spider 83338 game send u free 8ball wallpaper
+[[ SPAM SALAH >  539  :  want explicit sex 3 0 secs ring 0 2 0 73162414 cost 2 0 p min gsex pobox 2667 wc1n 3xx
+[[ SPAM SALAH >  542  :  ask 3mobile 0 87 0 chatlines inclu free mins india cust servs sed yes l8er get mega bill 3 dont giv shit bailiff due days 25 0 3 want 8 0 0
+[[[ akurasi total  0.9547038327526133
+[[[ akurasi total ham  0.998
+[[[ akurasi total spam  0.6621621621621622
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9547038327526133
+============================= random_forest  - Combination  D3 =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : random_forest
+[[ SPAM SALAH >  30  :  would like tell deepest darkest fantasy call 0 9 0 94646631 6 0 p min stop texts call 0 871246 0 324 nat rate
+[[ SPAM SALAH >  41  :  natalie 2 0 f invite friend reply yes 165 165 see www sms ac u natalie2k9 stop send stop frnd 62468
+[[ SPAM SALAH >  43  :  jamster get free wallpaper text heart 88888 c apply 16 need help call 0 87 0 1213186
+[[ SPAM SALAH >  68  :  83 0 39 62735 45 0 uk break accommodationvouchers term condition apply 2 claim mustprovide claim number 15541
+[[ SPAM SALAH >  73  :  win 2 0 0 shop spree every week start 2 play text store 88 0 39 skilgme tscs 0 871474 0 323 1winawk age16 1 5 0 perweeksub
+[[ SPAM SALAH >  100  :  themob hit link get premium pink panther game new 1 sugababes crazy zebra animation badass hoody wallpaper 4 free
+[[ SPAM SALAH >  104  :  msg mobile content order resent previous attempt fail due network error query customersqueries@netvision uk com
+[[ HAM SALAH >  105  :  news hassle get weed week andres money haughaighgtujhyguj
+[[ SPAM SALAH >  112  :  1 new message please call 0 87152 0 5273
+[[ SPAM SALAH >  122  :  private 2 0 0 3 account statement 0 78
+[[ HAM SALAH >  152  :  happy new year u ur family may new year bring happiness stability tranquility ur vibrant colourful life
+[[ SPAM SALAH >  239  :  someonone know try contact via date service find could call mobile landline 0 9 0 64 0 153 0 7 box334sk38ch
+[[ SPAM SALAH >  366  :  call 0 9 0 9535 0 3 0 1 send girls erotic ecstacy 6 0 p min stop texts call 0 871246 0 324 nat rate
+[[ SPAM SALAH >  372  :  date two start send text talk sport radio last week connection think coincidence
+[[ SPAM SALAH >  379  :  current lead bid 151 pause auction send customer care 0 871872627 0
+[[ SPAM SALAH >  383  :  1 new message call 0 2 0 7 0 83 6 0 89
+[[ SPAM SALAH >  429  :  santa call would little ones like call santa xmas eve call 0 9 0 58 0 94583 book time
+[[ SPAM SALAH >  451  :  latest news police station toilet steal cop nothing go
+[[ SPAM SALAH >  468  :  http tms widelive com index wml id 82 0 554ad 0 a17 0 5572711 first true c c ringtone
+[[ SPAM SALAH >  489  :  2p per min call germany 0 844835 0 0 55 bt line 2p per min check planettalkinstant com info c text stop opt
+[[ SPAM SALAH >  494  :  marvel mobile play official ultimate spider man game 4 5 0 ur mobile right text spider 83338 game send u free 8ball wallpaper
+[[ SPAM SALAH >  539  :  want explicit sex 3 0 secs ring 0 2 0 73162414 cost 2 0 p min gsex pobox 2667 wc1n 3xx
+[[ SPAM SALAH >  542  :  ask 3mobile 0 87 0 chatlines inclu free mins india cust servs sed yes l8er get mega bill 3 dont giv shit bailiff due days 25 0 3 want 8 0 0
+[[[ akurasi total  0.9599303135888502
+[[[ akurasi total ham  0.996
+[[[ akurasi total spam  0.7162162162162162
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9599303135888502
+============================= random_forest  - Combination  D4 =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : random_forest
+[[ SPAM SALAH >  30  :  would like tell deepest darkest fantasy call 0 9 0 94646631 6 0 p min stop texts call 0 871246 0 324 nat rate
+[[ SPAM SALAH >  43  :  jamster get free wallpaper text heart 88888 c apply 16 need help call 0 87 0 1213186
+[[ SPAM SALAH >  68  :  83 0 39 62735 45 0 uk break accommodationvouchers term condition apply 2 claim mustprovide claim number 15541
+[[ SPAM SALAH >  73  :  win 2 0 0 shop spree every week start 2 play text store 88 0 39 skilgme tscs 0 871474 0 323 1winawk age16 1 5 0 perweeksub
+[[ SPAM SALAH >  100  :  themob hit link get premium pink panther game new 1 sugababes crazy zebra animation badass hoody wallpaper 4 free
+[[ SPAM SALAH >  112  :  1 new message please call 0 87152 0 5273
+[[ SPAM SALAH >  122  :  private 2 0 0 3 account statement 0 78
+[[ SPAM SALAH >  149  :  get garden ready summer free selection summer bulbs seed worth 33 5 0 scotsman saturday stop go2 notxt co uk
+[[ SPAM SALAH >  239  :  someonone know try contact via date service find could call mobile landline 0 9 0 64 0 153 0 7 box334sk38ch
+[[ SPAM SALAH >  370  :  important message final contact attempt important message wait customer claim dept expire 13 4 0 4 call 0 87175 0 7382
+[[ SPAM SALAH >  372  :  date two start send text talk sport radio last week connection think coincidence
+[[ SPAM SALAH >  379  :  current lead bid 151 pause auction send customer care 0 871872627 0
+[[ SPAM SALAH >  380  :  free entry gr8prizes wkly comp 4 chance win latest nokia 88 0 0 psp 25 0 cash every wk txt great 8 0 878 http www gr8prizes com 0 87157 0 5 0 22
+[[ SPAM SALAH >  383  :  1 new message call 0 2 0 7 0 83 6 0 89
+[[ SPAM SALAH >  429  :  santa call would little ones like call santa xmas eve call 0 9 0 58 0 94583 book time
+[[ SPAM SALAH >  445  :  guarantee 32 0 0 0 award maybe even 1 0 0 0 cash claim ur award call free 0 8 0 0 18 legitimat efreefone number wat u think
+[[ SPAM SALAH >  451  :  latest news police station toilet steal cop nothing go
+[[ SPAM SALAH >  464  :  txt call 86888 claim reward 3 hours talk time use phone subscribe6gbp mnth inc 3hrs 16 stop txtstop www gamb tv
+[[ SPAM SALAH >  468  :  http tms widelive com index wml id 82 0 554ad 0 a17 0 5572711 first true c c ringtone
+[[ SPAM SALAH >  469  :  get garden ready summer free selection summer bulbs seed worth 33 5 0 scotsman saturday stop go2 notxt co uk
+[[ SPAM SALAH >  489  :  2p per min call germany 0 844835 0 0 55 bt line 2p per min check planettalkinstant com info c text stop opt
+[[ SPAM SALAH >  494  :  marvel mobile play official ultimate spider man game 4 5 0 ur mobile right text spider 83338 game send u free 8ball wallpaper
+[[ SPAM SALAH >  539  :  want explicit sex 3 0 secs ring 0 2 0 73162414 cost 2 0 p min gsex pobox 2667 wc1n 3xx
+[[ SPAM SALAH >  542  :  ask 3mobile 0 87 0 chatlines inclu free mins india cust servs sed yes l8er get mega bill 3 dont giv shit bailiff due days 25 0 3 want 8 0 0
+[[[ akurasi total  0.9581881533101045
+[[[ akurasi total ham  1.0
+[[[ akurasi total spam  0.6756756756756757
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9581881533101045
+============================= random_forest  - Combination  D5 =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : random_forest
+[[ SPAM SALAH >  43  :  jamster get free wallpaper text heart 88888 c apply 16 need help call 0 87 0 1213186
+[[ SPAM SALAH >  100  :  themob hit link get premium pink panther game new 1 sugababes crazy zebra animation badass hoody wallpaper 4 free
+[[ SPAM SALAH >  104  :  msg mobile content order resent previous attempt fail due network error query customersqueries@netvision uk com
+[[ SPAM SALAH >  112  :  1 new message please call 0 87152 0 5273
+[[ SPAM SALAH >  122  :  private 2 0 0 3 account statement 0 78
+[[ HAM SALAH >  326  :  dear sir salam alaikkum pride pleasure meet today tea shop please send contact number qatar rakhesh indian pls save number respectful regard
+[[ SPAM SALAH >  368  :  4 0 0 xmas reward wait computer randomly pick loyal mobile customers receive 4 0 0 reward call 0 9 0 6638 0 611
+[[ SPAM SALAH >  370  :  important message final contact attempt important message wait customer claim dept expire 13 4 0 4 call 0 87175 0 7382
+[[ SPAM SALAH >  372  :  date two start send text talk sport radio last week connection think coincidence
+[[ SPAM SALAH >  379  :  current lead bid 151 pause auction send customer care 0 871872627 0
+[[ SPAM SALAH >  383  :  1 new message call 0 2 0 7 0 83 6 0 89
+[[ SPAM SALAH >  445  :  guarantee 32 0 0 0 award maybe even 1 0 0 0 cash claim ur award call free 0 8 0 0 18 legitimat efreefone number wat u think
+[[ SPAM SALAH >  451  :  latest news police station toilet steal cop nothing go
+[[ SPAM SALAH >  468  :  http tms widelive com index wml id 82 0 554ad 0 a17 0 5572711 first true c c ringtone
+[[ SPAM SALAH >  470  :  urgent last weekend draw show 1 0 0 0 cash spanish holiday call 0 9 0 5 0 0 0 0 332 claim c rstm sw7 3ss 15 0 ppm
+[[ SPAM SALAH >  539  :  want explicit sex 3 0 secs ring 0 2 0 73162414 cost 2 0 p min gsex pobox 2667 wc1n 3xx
+[[ SPAM SALAH >  542  :  ask 3mobile 0 87 0 chatlines inclu free mins india cust servs sed yes l8er get mega bill 3 dont giv shit bailiff due days 25 0 3 want 8 0 0
+[[[ akurasi total  0.9703832752613241
+[[[ akurasi total ham  0.998
+[[[ akurasi total spam  0.7837837837837838
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9703832752613241
+============================= random_forest  - Combination  D6 =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : random_forest
+[[ SPAM SALAH >  4  :  cds 4u congratulations ur award 5 0 0 cd gift vouchers 125 gift guarantee freeentry 2 1 0 0 wkly draw xt music 87 0 66 tncs www ldew com1win15 0 ppmx3age16
+[[ SPAM SALAH >  30  :  would like tell deepest darkest fantasy call 0 9 0 94646631 6 0 p min stop texts call 0 871246 0 324 nat rate
+[[ SPAM SALAH >  41  :  natalie 2 0 f invite friend reply yes 165 165 see www sms ac u natalie2k9 stop send stop frnd 62468
+[[ SPAM SALAH >  43  :  jamster get free wallpaper text heart 88888 c apply 16 need help call 0 87 0 1213186
+[[ SPAM SALAH >  68  :  83 0 39 62735 45 0 uk break accommodationvouchers term condition apply 2 claim mustprovide claim number 15541
+[[ SPAM SALAH >  73  :  win 2 0 0 shop spree every week start 2 play text store 88 0 39 skilgme tscs 0 871474 0 323 1winawk age16 1 5 0 perweeksub
+[[ SPAM SALAH >  100  :  themob hit link get premium pink panther game new 1 sugababes crazy zebra animation badass hoody wallpaper 4 free
+[[ SPAM SALAH >  104  :  msg mobile content order resent previous attempt fail due network error query customersqueries@netvision uk com
+[[ SPAM SALAH >  112  :  1 new message please call 0 87152 0 5273
+[[ SPAM SALAH >  122  :  private 2 0 0 3 account statement 0 78
+[[ SPAM SALAH >  149  :  get garden ready summer free selection summer bulbs seed worth 33 5 0 scotsman saturday stop go2 notxt co uk
+[[ SPAM SALAH >  180  :  sms auction brand new nokia 725 0 4 auction today auction free 2 join take part txt nokia 86 0 21
+[[ SPAM SALAH >  192  :  record indicate u maybe entitle 5 0 0 0 pound compensation accident claim 4 free reply claim msg 2 stop txt stop
+[[ SPAM SALAH >  202  :  call germany 1 pence per minute call fix line via access number 0 844 861 85 85 prepayment direct access www telediscount co uk
+[[ SPAM SALAH >  230  :  private 2 0 0 3 account statement fone show 8 0 0 un redeem point call 0 87152 0 3656 identifier code 42 0 49 expire 26 1 0 0 4
+[[ SPAM SALAH >  239  :  someonone know try contact via date service find could call mobile landline 0 9 0 64 0 153 0 7 box334sk38ch
+[[ SPAM SALAH >  366  :  call 0 9 0 9535 0 3 0 1 send girls erotic ecstacy 6 0 p min stop texts call 0 871246 0 324 nat rate
+[[ SPAM SALAH >  368  :  4 0 0 xmas reward wait computer randomly pick loyal mobile customers receive 4 0 0 reward call 0 9 0 6638 0 611
+[[ SPAM SALAH >  370  :  important message final contact attempt important message wait customer claim dept expire 13 4 0 4 call 0 87175 0 7382
+[[ SPAM SALAH >  372  :  date two start send text talk sport radio last week connection think coincidence
+[[ SPAM SALAH >  379  :  current lead bid 151 pause auction send customer care 0 871872627 0
+[[ SPAM SALAH >  383  :  1 new message call 0 2 0 7 0 83 6 0 89
+[[ SPAM SALAH >  429  :  santa call would little ones like call santa xmas eve call 0 9 0 58 0 94583 book time
+[[ SPAM SALAH >  445  :  guarantee 32 0 0 0 award maybe even 1 0 0 0 cash claim ur award call free 0 8 0 0 18 legitimat efreefone number wat u think
+[[ SPAM SALAH >  451  :  latest news police station toilet steal cop nothing go
+[[ SPAM SALAH >  458  :  sparkle shop break 45 per person call 0 121 2 0 25 0 5 0 visit www shortbreaks org uk
+[[ SPAM SALAH >  468  :  http tms widelive com index wml id 82 0 554ad 0 a17 0 5572711 first true c c ringtone
+[[ SPAM SALAH >  469  :  get garden ready summer free selection summer bulbs seed worth 33 5 0 scotsman saturday stop go2 notxt co uk
+[[ SPAM SALAH >  470  :  urgent last weekend draw show 1 0 0 0 cash spanish holiday call 0 9 0 5 0 0 0 0 332 claim c rstm sw7 3ss 15 0 ppm
+[[ SPAM SALAH >  489  :  2p per min call germany 0 844835 0 0 55 bt line 2p per min check planettalkinstant com info c text stop opt
+[[ SPAM SALAH >  494  :  marvel mobile play official ultimate spider man game 4 5 0 ur mobile right text spider 83338 game send u free 8ball wallpaper
+[[ SPAM SALAH >  539  :  want explicit sex 3 0 secs ring 0 2 0 73162414 cost 2 0 p min gsex pobox 2667 wc1n 3xx
+[[ SPAM SALAH >  542  :  ask 3mobile 0 87 0 chatlines inclu free mins india cust servs sed yes l8er get mega bill 3 dont giv shit bailiff due days 25 0 3 want 8 0 0
+[[ SPAM SALAH >  568  :  reminder o2 get 2 5 0 pound free call credit detail great offer pls reply 2 text valid name house postcode
+[[[ akurasi total  0.9407665505226481
+[[[ akurasi total ham  1.0
+[[[ akurasi total spam  0.5405405405405406
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9407665505226481
+============================= random_forest  - Combination  D7 =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : random_forest
+[[ SPAM SALAH >  30  :  would like tell deepest darkest fantasy call 0 9 0 94646631 6 0 p min stop texts call 0 871246 0 324 nat rate
+[[ SPAM SALAH >  43  :  jamster get free wallpaper text heart 88888 c apply 16 need help call 0 87 0 1213186
+[[ SPAM SALAH >  68  :  83 0 39 62735 45 0 uk break accommodationvouchers term condition apply 2 claim mustprovide claim number 15541
+[[ SPAM SALAH >  73  :  win 2 0 0 shop spree every week start 2 play text store 88 0 39 skilgme tscs 0 871474 0 323 1winawk age16 1 5 0 perweeksub
+[[ SPAM SALAH >  76  :  2nd attempt contract u weeks top prize either 1 0 0 0 cash 2 0 0 prize call 0 9 0 66361921
+[[ SPAM SALAH >  100  :  themob hit link get premium pink panther game new 1 sugababes crazy zebra animation badass hoody wallpaper 4 free
+[[ SPAM SALAH >  104  :  msg mobile content order resent previous attempt fail due network error query customersqueries@netvision uk com
+[[ SPAM SALAH >  112  :  1 new message please call 0 87152 0 5273
+[[ SPAM SALAH >  122  :  private 2 0 0 3 account statement 0 78
+[[ SPAM SALAH >  192  :  record indicate u maybe entitle 5 0 0 0 pound compensation accident claim 4 free reply claim msg 2 stop txt stop
+[[ SPAM SALAH >  366  :  call 0 9 0 9535 0 3 0 1 send girls erotic ecstacy 6 0 p min stop texts call 0 871246 0 324 nat rate
+[[ SPAM SALAH >  368  :  4 0 0 xmas reward wait computer randomly pick loyal mobile customers receive 4 0 0 reward call 0 9 0 6638 0 611
+[[ SPAM SALAH >  372  :  date two start send text talk sport radio last week connection think coincidence
+[[ SPAM SALAH >  379  :  current lead bid 151 pause auction send customer care 0 871872627 0
+[[ SPAM SALAH >  383  :  1 new message call 0 2 0 7 0 83 6 0 89
+[[ SPAM SALAH >  429  :  santa call would little ones like call santa xmas eve call 0 9 0 58 0 94583 book time
+[[ SPAM SALAH >  445  :  guarantee 32 0 0 0 award maybe even 1 0 0 0 cash claim ur award call free 0 8 0 0 18 legitimat efreefone number wat u think
+[[ SPAM SALAH >  451  :  latest news police station toilet steal cop nothing go
+[[ SPAM SALAH >  458  :  sparkle shop break 45 per person call 0 121 2 0 25 0 5 0 visit www shortbreaks org uk
+[[ SPAM SALAH >  468  :  http tms widelive com index wml id 82 0 554ad 0 a17 0 5572711 first true c c ringtone
+[[ SPAM SALAH >  489  :  2p per min call germany 0 844835 0 0 55 bt line 2p per min check planettalkinstant com info c text stop opt
+[[ SPAM SALAH >  494  :  marvel mobile play official ultimate spider man game 4 5 0 ur mobile right text spider 83338 game send u free 8ball wallpaper
+[[ SPAM SALAH >  539  :  want explicit sex 3 0 secs ring 0 2 0 73162414 cost 2 0 p min gsex pobox 2667 wc1n 3xx
+[[ SPAM SALAH >  542  :  ask 3mobile 0 87 0 chatlines inclu free mins india cust servs sed yes l8er get mega bill 3 dont giv shit bailiff due days 25 0 3 want 8 0 0
+[[ SPAM SALAH >  568  :  reminder o2 get 2 5 0 pound free call credit detail great offer pls reply 2 text valid name house postcode
+[[[ akurasi total  0.9564459930313589
+[[[ akurasi total ham  1.0
+[[[ akurasi total spam  0.6621621621621622
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9564459930313589
+============================= random_forest  - Combination  D8 =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : random_forest
+[[ SPAM SALAH >  30  :  would like tell deepest darkest fantasy call 0 9 0 94646631 6 0 p min stop texts call 0 871246 0 324 nat rate
+[[ SPAM SALAH >  43  :  jamster get free wallpaper text heart 88888 c apply 16 need help call 0 87 0 1213186
+[[ SPAM SALAH >  68  :  83 0 39 62735 45 0 uk break accommodationvouchers term condition apply 2 claim mustprovide claim number 15541
+[[ SPAM SALAH >  73  :  win 2 0 0 shop spree every week start 2 play text store 88 0 39 skilgme tscs 0 871474 0 323 1winawk age16 1 5 0 perweeksub
+[[ SPAM SALAH >  100  :  themob hit link get premium pink panther game new 1 sugababes crazy zebra animation badass hoody wallpaper 4 free
+[[ SPAM SALAH >  122  :  private 2 0 0 3 account statement 0 78
+[[ SPAM SALAH >  202  :  call germany 1 pence per minute call fix line via access number 0 844 861 85 85 prepayment direct access www telediscount co uk
+[[ SPAM SALAH >  366  :  call 0 9 0 9535 0 3 0 1 send girls erotic ecstacy 6 0 p min stop texts call 0 871246 0 324 nat rate
+[[ SPAM SALAH >  368  :  4 0 0 xmas reward wait computer randomly pick loyal mobile customers receive 4 0 0 reward call 0 9 0 6638 0 611
+[[ SPAM SALAH >  370  :  important message final contact attempt important message wait customer claim dept expire 13 4 0 4 call 0 87175 0 7382
+[[ SPAM SALAH >  372  :  date two start send text talk sport radio last week connection think coincidence
+[[ SPAM SALAH >  379  :  current lead bid 151 pause auction send customer care 0 871872627 0
+[[ SPAM SALAH >  383  :  1 new message call 0 2 0 7 0 83 6 0 89
+[[ SPAM SALAH >  429  :  santa call would little ones like call santa xmas eve call 0 9 0 58 0 94583 book time
+[[ SPAM SALAH >  445  :  guarantee 32 0 0 0 award maybe even 1 0 0 0 cash claim ur award call free 0 8 0 0 18 legitimat efreefone number wat u think
+[[ SPAM SALAH >  451  :  latest news police station toilet steal cop nothing go
+[[ SPAM SALAH >  458  :  sparkle shop break 45 per person call 0 121 2 0 25 0 5 0 visit www shortbreaks org uk
+[[ SPAM SALAH >  464  :  txt call 86888 claim reward 3 hours talk time use phone subscribe6gbp mnth inc 3hrs 16 stop txtstop www gamb tv
+[[ SPAM SALAH >  468  :  http tms widelive com index wml id 82 0 554ad 0 a17 0 5572711 first true c c ringtone
+[[ HAM SALAH >  483  :  shall call dear food
+[[ SPAM SALAH >  494  :  marvel mobile play official ultimate spider man game 4 5 0 ur mobile right text spider 83338 game send u free 8ball wallpaper
+[[ SPAM SALAH >  539  :  want explicit sex 3 0 secs ring 0 2 0 73162414 cost 2 0 p min gsex pobox 2667 wc1n 3xx
+[[ SPAM SALAH >  568  :  reminder o2 get 2 5 0 pound free call credit detail great offer pls reply 2 text valid name house postcode
+[[[ akurasi total  0.9599303135888502
+[[[ akurasi total ham  0.998
+[[[ akurasi total spam  0.7027027027027027
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9599303135888502
+============================= random_forest  - Combination  F =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : random_forest
+[[ SPAM SALAH >  4  :  cds 4u congratulations ur award 5 0 0 of cd gift vouchers or 125 gift guarantee freeentry 2 1 0 0 wkly draw xt music to 87 0 66 tncs www ldew com1win15 0 ppmx3age16
+[[ SPAM SALAH >  30  :  i would like to tell you my deepest darkest fantasy call me 0 9 0 94646631 just 6 0 p min to stop texts call 0 871246 0 324 nat rate
+[[ SPAM SALAH >  43  :  jamster to get your free wallpaper text heart to 88888 now t c apply 16 only need help call 0 87 0 1213186
+[[ SPAM SALAH >  68  :  83 0 39 62735 45 0 uk break accommodationvouchers term condition apply 2 claim you mustprovide your claim number which be 15541
+[[ SPAM SALAH >  73  :  win a 2 0 0 shop spree every week start now 2 play text store to 88 0 39 skilgme tscs 0 871474 0 323 1winawk age16 1 5 0 perweeksub
+[[ SPAM SALAH >  100  :  themob hit the link to get a premium pink panther game the new no 1 from sugababes a crazy zebra animation or a badass hoody wallpaper all 4 free
+[[ SPAM SALAH >  104  :  this msg be for your mobile content order it have be resent as previous attempt fail due to network error query to customersqueries@netvision uk com
+[[ SPAM SALAH >  112  :  you have 1 new message please call 0 87152 0 5273
+[[ SPAM SALAH >  122  :  private your 2 0 0 3 account statement for 0 78
+[[ SPAM SALAH >  149  :  get your garden ready for summer with a free selection of summer bulbs and seed worth 33 5 0 only with the scotsman this saturday to stop go2 notxt co uk
+[[ SPAM SALAH >  180  :  sms auction a brand new nokia 725 0 be up 4 auction today auction be free 2 join take part txt nokia to 86 0 21 now
+[[ SPAM SALAH >  192  :  our record indicate u maybe entitle to 5 0 0 0 pound in compensation for the accident you have to claim 4 free reply with claim to this msg 2 stop txt stop
+[[ SPAM SALAH >  344  :  u r subscribe 2 textcomp 25 0 wkly comp 1st wk s free question follow subsequent wks charged@15 0 p msg 2 unsubscribe txt stop 2 84128 custcare 0 87124 0 5 0 2 0
+[[ SPAM SALAH >  366  :  call 0 9 0 9535 0 3 0 1 and send our girls into erotic ecstacy just 6 0 p min to stop texts call 0 871246 0 324 nat rate
+[[ SPAM SALAH >  370  :  important message this be a final contact attempt you have important message wait out our customer claim dept expire 13 4 0 4 call 0 87175 0 7382 now
+[[ SPAM SALAH >  372  :  date i have have two of these only start after i send a text to talk sport radio last week any connection do you think or coincidence
+[[ SPAM SALAH >  379  :  the current lead bid be 151 to pause this auction send out customer care 0 871872627 0
+[[ SPAM SALAH >  380  :  free entry to the gr8prizes wkly comp 4 a chance to win the latest nokia 88 0 0 psp or 25 0 cash every wk txt great to 8 0 878 http www gr8prizes com 0 87157 0 5 0 22
+[[ SPAM SALAH >  383  :  you have 1 new message call 0 2 0 7 0 83 6 0 89
+[[ SPAM SALAH >  445  :  you have win a guarantee 32 0 0 0 award or maybe even 1 0 0 0 cash to claim ur award call free on 0 8 0 0 18 its a legitimat efreefone number wat do u think
+[[ SPAM SALAH >  451  :  latest news police station toilet steal cop have nothing to go on
+[[ SPAM SALAH >  464  :  txt call to no 86888 claim your reward of 3 hours talk time to use from your phone now subscribe6gbp mnth inc 3hrs 16 stop txtstop www gamb tv
+[[ SPAM SALAH >  468  :  http tms widelive com index wml id 82 0 554ad 0 a17 0 5572711 first true c c ringtone
+[[ SPAM SALAH >  469  :  get your garden ready for summer with a free selection of summer bulbs and seed worth 33 5 0 only with the scotsman this saturday to stop go2 notxt co uk
+[[ SPAM SALAH >  470  :  urgent last weekend be draw show that you have win 1 0 0 0 cash or a spanish holiday call now 0 9 0 5 0 0 0 0 332 to claim t c rstm sw7 3ss 15 0 ppm
+[[ SPAM SALAH >  489  :  2p per min to call germany 0 844835 0 0 55 from your bt line just 2p per min check planettalkinstant com for info t be c be text stop to opt out
+[[ SPAM SALAH >  494  :  marvel mobile play the official ultimate spider man game 4 5 0 on ur mobile right now text spider to 83338 for the game we ll send u a free 8ball wallpaper
+[[ SPAM SALAH >  539  :  want explicit sex in 3 0 secs ring 0 2 0 73162414 now cost 2 0 p min gsex pobox 2667 wc1n 3xx
+[[ SPAM SALAH >  542  :  ask 3mobile if 0 87 0 chatlines inclu in free mins india cust servs sed yes l8er get mega bill 3 dont giv a shit bailiff due in days i o 25 0 3 want 8 0 0
+[[ SPAM SALAH >  568  :  reminder from o2 to get 2 5 0 pound free call credit and detail of great offer pls reply 2 this text with your valid name house no and postcode
+[[[ akurasi total  0.9477351916376306
+[[[ akurasi total ham  1.0
+[[[ akurasi total spam  0.5945945945945946
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9477351916376306
+============================= random_forest  - Combination  F2 =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : random_forest
+[[ SPAM SALAH >  30  :  i would like to tell you my deepest darkest fantasy call me 0 9 0 94646631 just 6 0 p min to stop texts call 0 871246 0 324 nat rate
+[[ SPAM SALAH >  41  :  natalie 2 0 f be invite you to be her friend reply yes 165 or no 165 see her www sms ac u natalie2k9 stop send stop frnd to 62468
+[[ SPAM SALAH >  43  :  jamster to get your free wallpaper text heart to 88888 now t c apply 16 only need help call 0 87 0 1213186
+[[ SPAM SALAH >  68  :  83 0 39 62735 45 0 uk break accommodationvouchers term condition apply 2 claim you mustprovide your claim number which be 15541
+[[ SPAM SALAH >  100  :  themob hit the link to get a premium pink panther game the new no 1 from sugababes a crazy zebra animation or a badass hoody wallpaper all 4 free
+[[ SPAM SALAH >  104  :  this msg be for your mobile content order it have be resent as previous attempt fail due to network error query to customersqueries@netvision uk com
+[[ SPAM SALAH >  112  :  you have 1 new message please call 0 87152 0 5273
+[[ SPAM SALAH >  122  :  private your 2 0 0 3 account statement for 0 78
+[[ SPAM SALAH >  149  :  get your garden ready for summer with a free selection of summer bulbs and seed worth 33 5 0 only with the scotsman this saturday to stop go2 notxt co uk
+[[ SPAM SALAH >  180  :  sms auction a brand new nokia 725 0 be up 4 auction today auction be free 2 join take part txt nokia to 86 0 21 now
+[[ SPAM SALAH >  191  :  ree entry in 2 a weekly comp for a chance to win an ipod txt pod to 8 0 182 to get entry std txt rate t c be apply 0 845281 0 0 73 for detail 18
+[[ SPAM SALAH >  368  :  a 4 0 0 xmas reward be wait for you our computer have randomly pick you from our loyal mobile customers to receive a 4 0 0 reward just call 0 9 0 6638 0 611
+[[ SPAM SALAH >  370  :  important message this be a final contact attempt you have important message wait out our customer claim dept expire 13 4 0 4 call 0 87175 0 7382 now
+[[ SPAM SALAH >  372  :  date i have have two of these only start after i send a text to talk sport radio last week any connection do you think or coincidence
+[[ SPAM SALAH >  379  :  the current lead bid be 151 to pause this auction send out customer care 0 871872627 0
+[[ SPAM SALAH >  383  :  you have 1 new message call 0 2 0 7 0 83 6 0 89
+[[ SPAM SALAH >  429  :  santa call would your little ones like a call from santa xmas eve call 0 9 0 58 0 94583 to book your time
+[[ SPAM SALAH >  451  :  latest news police station toilet steal cop have nothing to go on
+[[ SPAM SALAH >  468  :  http tms widelive com index wml id 82 0 554ad 0 a17 0 5572711 first true c c ringtone
+[[ SPAM SALAH >  469  :  get your garden ready for summer with a free selection of summer bulbs and seed worth 33 5 0 only with the scotsman this saturday to stop go2 notxt co uk
+[[ SPAM SALAH >  470  :  urgent last weekend be draw show that you have win 1 0 0 0 cash or a spanish holiday call now 0 9 0 5 0 0 0 0 332 to claim t c rstm sw7 3ss 15 0 ppm
+[[ SPAM SALAH >  539  :  want explicit sex in 3 0 secs ring 0 2 0 73162414 now cost 2 0 p min gsex pobox 2667 wc1n 3xx
+[[ SPAM SALAH >  542  :  ask 3mobile if 0 87 0 chatlines inclu in free mins india cust servs sed yes l8er get mega bill 3 dont giv a shit bailiff due in days i o 25 0 3 want 8 0 0
+[[ SPAM SALAH >  568  :  reminder from o2 to get 2 5 0 pound free call credit and detail of great offer pls reply 2 this text with your valid name house no and postcode
+[[[ akurasi total  0.9581881533101045
+[[[ akurasi total ham  1.0
+[[[ akurasi total spam  0.6756756756756757
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9581881533101045
+============================= random_forest  - Combination  F3 =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : random_forest
+[[ SPAM SALAH >  30  :  i would like to tell you my deepest darkest fantasy call me 0 9 0 94646631 just 6 0 p min to stop texts call 0 871246 0 324 nat rate
+[[ SPAM SALAH >  68  :  83 0 39 62735 45 0 uk break accommodationvouchers term condition apply 2 claim you mustprovide your claim number which be 15541
+[[ SPAM SALAH >  71  :  5p 4 alfie moon be children in need song on ur mob tell ur m8s txt tone charity to 8 0 0 7 for nokias or poly charity for polys zed 0 87 0 1417 0 12 profit 2 charity
+[[ SPAM SALAH >  100  :  themob hit the link to get a premium pink panther game the new no 1 from sugababes a crazy zebra animation or a badass hoody wallpaper all 4 free
+[[ SPAM SALAH >  104  :  this msg be for your mobile content order it have be resent as previous attempt fail due to network error query to customersqueries@netvision uk com
+[[ SPAM SALAH >  122  :  private your 2 0 0 3 account statement for 0 78
+[[ SPAM SALAH >  149  :  get your garden ready for summer with a free selection of summer bulbs and seed worth 33 5 0 only with the scotsman this saturday to stop go2 notxt co uk
+[[ SPAM SALAH >  180  :  sms auction a brand new nokia 725 0 be up 4 auction today auction be free 2 join take part txt nokia to 86 0 21 now
+[[ SPAM SALAH >  239  :  someonone you know be try to contact you via our date service to find out who it could be call from your mobile or landline 0 9 0 64 0 153 0 7 box334sk38ch
+[[ SPAM SALAH >  372  :  date i have have two of these only start after i send a text to talk sport radio last week any connection do you think or coincidence
+[[ SPAM SALAH >  379  :  the current lead bid be 151 to pause this auction send out customer care 0 871872627 0
+[[ SPAM SALAH >  429  :  santa call would your little ones like a call from santa xmas eve call 0 9 0 58 0 94583 to book your time
+[[ SPAM SALAH >  445  :  you have win a guarantee 32 0 0 0 award or maybe even 1 0 0 0 cash to claim ur award call free on 0 8 0 0 18 its a legitimat efreefone number wat do u think
+[[ SPAM SALAH >  451  :  latest news police station toilet steal cop have nothing to go on
+[[ SPAM SALAH >  458  :  for the most sparkle shop break from 45 per person call 0 121 2 0 25 0 5 0 or visit www shortbreaks org uk
+[[ SPAM SALAH >  464  :  txt call to no 86888 claim your reward of 3 hours talk time to use from your phone now subscribe6gbp mnth inc 3hrs 16 stop txtstop www gamb tv
+[[ SPAM SALAH >  468  :  http tms widelive com index wml id 82 0 554ad 0 a17 0 5572711 first true c c ringtone
+[[ SPAM SALAH >  469  :  get your garden ready for summer with a free selection of summer bulbs and seed worth 33 5 0 only with the scotsman this saturday to stop go2 notxt co uk
+[[ SPAM SALAH >  539  :  want explicit sex in 3 0 secs ring 0 2 0 73162414 now cost 2 0 p min gsex pobox 2667 wc1n 3xx
+[[ SPAM SALAH >  542  :  ask 3mobile if 0 87 0 chatlines inclu in free mins india cust servs sed yes l8er get mega bill 3 dont giv a shit bailiff due in days i o 25 0 3 want 8 0 0
+[[ SPAM SALAH >  568  :  reminder from o2 to get 2 5 0 pound free call credit and detail of great offer pls reply 2 this text with your valid name house no and postcode
+[[[ akurasi total  0.9634146341463414
+[[[ akurasi total ham  1.0
+[[[ akurasi total spam  0.7162162162162162
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9634146341463414
+============================= random_forest  - Combination  F4 =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : random_forest
+[[ SPAM SALAH >  4  :  cds 4u congratulations ur award 5 0 0 of cd gift vouchers or 125 gift guarantee freeentry 2 1 0 0 wkly draw xt music to 87 0 66 tncs www ldew com1win15 0 ppmx3age16
+[[ SPAM SALAH >  30  :  i would like to tell you my deepest darkest fantasy call me 0 9 0 94646631 just 6 0 p min to stop texts call 0 871246 0 324 nat rate
+[[ SPAM SALAH >  43  :  jamster to get your free wallpaper text heart to 88888 now t c apply 16 only need help call 0 87 0 1213186
+[[ SPAM SALAH >  68  :  83 0 39 62735 45 0 uk break accommodationvouchers term condition apply 2 claim you mustprovide your claim number which be 15541
+[[ SPAM SALAH >  100  :  themob hit the link to get a premium pink panther game the new no 1 from sugababes a crazy zebra animation or a badass hoody wallpaper all 4 free
+[[ SPAM SALAH >  104  :  this msg be for your mobile content order it have be resent as previous attempt fail due to network error query to customersqueries@netvision uk com
+[[ SPAM SALAH >  122  :  private your 2 0 0 3 account statement for 0 78
+[[ SPAM SALAH >  149  :  get your garden ready for summer with a free selection of summer bulbs and seed worth 33 5 0 only with the scotsman this saturday to stop go2 notxt co uk
+[[ SPAM SALAH >  239  :  someonone you know be try to contact you via our date service to find out who it could be call from your mobile or landline 0 9 0 64 0 153 0 7 box334sk38ch
+[[ SPAM SALAH >  296  :  xmas iscoming ur award either 5 0 0 cd gift vouchers free entry 2 r 1 0 0 weekly draw txt music to 87 0 66 tnc www ldew com1win15 0 ppmx3age16subscription
+[[ SPAM SALAH >  366  :  call 0 9 0 9535 0 3 0 1 and send our girls into erotic ecstacy just 6 0 p min to stop texts call 0 871246 0 324 nat rate
+[[ SPAM SALAH >  372  :  date i have have two of these only start after i send a text to talk sport radio last week any connection do you think or coincidence
+[[ SPAM SALAH >  379  :  the current lead bid be 151 to pause this auction send out customer care 0 871872627 0
+[[ SPAM SALAH >  383  :  you have 1 new message call 0 2 0 7 0 83 6 0 89
+[[ SPAM SALAH >  451  :  latest news police station toilet steal cop have nothing to go on
+[[ SPAM SALAH >  458  :  for the most sparkle shop break from 45 per person call 0 121 2 0 25 0 5 0 or visit www shortbreaks org uk
+[[ SPAM SALAH >  468  :  http tms widelive com index wml id 82 0 554ad 0 a17 0 5572711 first true c c ringtone
+[[ SPAM SALAH >  469  :  get your garden ready for summer with a free selection of summer bulbs and seed worth 33 5 0 only with the scotsman this saturday to stop go2 notxt co uk
+[[ SPAM SALAH >  489  :  2p per min to call germany 0 844835 0 0 55 from your bt line just 2p per min check planettalkinstant com for info t be c be text stop to opt out
+[[ SPAM SALAH >  494  :  marvel mobile play the official ultimate spider man game 4 5 0 on ur mobile right now text spider to 83338 for the game we ll send u a free 8ball wallpaper
+[[ SPAM SALAH >  539  :  want explicit sex in 3 0 secs ring 0 2 0 73162414 now cost 2 0 p min gsex pobox 2667 wc1n 3xx
+[[ SPAM SALAH >  542  :  ask 3mobile if 0 87 0 chatlines inclu in free mins india cust servs sed yes l8er get mega bill 3 dont giv a shit bailiff due in days i o 25 0 3 want 8 0 0
+[[ SPAM SALAH >  568  :  reminder from o2 to get 2 5 0 pound free call credit and detail of great offer pls reply 2 this text with your valid name house no and postcode
+[[[ akurasi total  0.9599303135888502
+[[[ akurasi total ham  1.0
+[[[ akurasi total spam  0.6891891891891891
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9599303135888502
+============================= random_forest  - Combination  F5 =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : random_forest
+[[ HAM SALAH >  10  :  my mobile number pls sms ur mail id convey regard to achan amma rakhesh qatar
+[[ SPAM SALAH >  30  :  i would like to tell you my deepest darkest fantasy call me 0 9 0 94646631 just 6 0 p min to stop texts call 0 871246 0 324 nat rate
+[[ SPAM SALAH >  41  :  natalie 2 0 f be invite you to be her friend reply yes 165 or no 165 see her www sms ac u natalie2k9 stop send stop frnd to 62468
+[[ SPAM SALAH >  43  :  jamster to get your free wallpaper text heart to 88888 now t c apply 16 only need help call 0 87 0 1213186
+[[ SPAM SALAH >  100  :  themob hit the link to get a premium pink panther game the new no 1 from sugababes a crazy zebra animation or a badass hoody wallpaper all 4 free
+[[ SPAM SALAH >  104  :  this msg be for your mobile content order it have be resent as previous attempt fail due to network error query to customersqueries@netvision uk com
+[[ SPAM SALAH >  112  :  you have 1 new message please call 0 87152 0 5273
+[[ SPAM SALAH >  122  :  private your 2 0 0 3 account statement for 0 78
+[[ SPAM SALAH >  230  :  private your 2 0 0 3 account statement for fone no show 8 0 0 un redeem s i m point call 0 87152 0 3656 identifier code 42 0 49 expire 26 1 0 0 4
+[[ SPAM SALAH >  239  :  someonone you know be try to contact you via our date service to find out who it could be call from your mobile or landline 0 9 0 64 0 153 0 7 box334sk38ch
+[[ SPAM SALAH >  370  :  important message this be a final contact attempt you have important message wait out our customer claim dept expire 13 4 0 4 call 0 87175 0 7382 now
+[[ SPAM SALAH >  372  :  date i have have two of these only start after i send a text to talk sport radio last week any connection do you think or coincidence
+[[ SPAM SALAH >  379  :  the current lead bid be 151 to pause this auction send out customer care 0 871872627 0
+[[ SPAM SALAH >  380  :  free entry to the gr8prizes wkly comp 4 a chance to win the latest nokia 88 0 0 psp or 25 0 cash every wk txt great to 8 0 878 http www gr8prizes com 0 87157 0 5 0 22
+[[ SPAM SALAH >  383  :  you have 1 new message call 0 2 0 7 0 83 6 0 89
+[[ SPAM SALAH >  451  :  latest news police station toilet steal cop have nothing to go on
+[[ SPAM SALAH >  468  :  http tms widelive com index wml id 82 0 554ad 0 a17 0 5572711 first true c c ringtone
+[[ SPAM SALAH >  489  :  2p per min to call germany 0 844835 0 0 55 from your bt line just 2p per min check planettalkinstant com for info t be c be text stop to opt out
+[[ SPAM SALAH >  494  :  marvel mobile play the official ultimate spider man game 4 5 0 on ur mobile right now text spider to 83338 for the game we ll send u a free 8ball wallpaper
+[[ SPAM SALAH >  539  :  want explicit sex in 3 0 secs ring 0 2 0 73162414 now cost 2 0 p min gsex pobox 2667 wc1n 3xx
+[[ SPAM SALAH >  542  :  ask 3mobile if 0 87 0 chatlines inclu in free mins india cust servs sed yes l8er get mega bill 3 dont giv a shit bailiff due in days i o 25 0 3 want 8 0 0
+[[ SPAM SALAH >  568  :  reminder from o2 to get 2 5 0 pound free call credit and detail of great offer pls reply 2 this text with your valid name house no and postcode
+[[[ akurasi total  0.9616724738675958
+[[[ akurasi total ham  0.998
+[[[ akurasi total spam  0.7162162162162162
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9616724738675958
+============================= random_forest  - Combination  F6 =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : random_forest
+[[ SPAM SALAH >  4  :  cds 4u congratulations ur award 5 0 0 of cd gift vouchers or 125 gift guarantee freeentry 2 1 0 0 wkly draw xt music to 87 0 66 tncs www ldew com1win15 0 ppmx3age16
+[[ SPAM SALAH >  27  :  ur cash balance be currently 5 0 0 pound to maximize ur cash in now send go to 86688 only 15 0 p meg cc 0 871872 0 2 0 1 hg suite342 2lands row w1j6hl
+[[ SPAM SALAH >  30  :  i would like to tell you my deepest darkest fantasy call me 0 9 0 94646631 just 6 0 p min to stop texts call 0 871246 0 324 nat rate
+[[ SPAM SALAH >  41  :  natalie 2 0 f be invite you to be her friend reply yes 165 or no 165 see her www sms ac u natalie2k9 stop send stop frnd to 62468
+[[ SPAM SALAH >  43  :  jamster to get your free wallpaper text heart to 88888 now t c apply 16 only need help call 0 87 0 1213186
+[[ SPAM SALAH >  68  :  83 0 39 62735 45 0 uk break accommodationvouchers term condition apply 2 claim you mustprovide your claim number which be 15541
+[[ SPAM SALAH >  71  :  5p 4 alfie moon be children in need song on ur mob tell ur m8s txt tone charity to 8 0 0 7 for nokias or poly charity for polys zed 0 87 0 1417 0 12 profit 2 charity
+[[ SPAM SALAH >  73  :  win a 2 0 0 shop spree every week start now 2 play text store to 88 0 39 skilgme tscs 0 871474 0 323 1winawk age16 1 5 0 perweeksub
+[[ SPAM SALAH >  76  :  this be the 2nd attempt to contract u you have win this weeks top prize of either 1 0 0 0 cash or 2 0 0 prize just call 0 9 0 66361921
+[[ SPAM SALAH >  100  :  themob hit the link to get a premium pink panther game the new no 1 from sugababes a crazy zebra animation or a badass hoody wallpaper all 4 free
+[[ SPAM SALAH >  104  :  this msg be for your mobile content order it have be resent as previous attempt fail due to network error query to customersqueries@netvision uk com
+[[ SPAM SALAH >  122  :  private your 2 0 0 3 account statement for 0 78
+[[ SPAM SALAH >  180  :  sms auction a brand new nokia 725 0 be up 4 auction today auction be free 2 join take part txt nokia to 86 0 21 now
+[[ SPAM SALAH >  192  :  our record indicate u maybe entitle to 5 0 0 0 pound in compensation for the accident you have to claim 4 free reply with claim to this msg 2 stop txt stop
+[[ SPAM SALAH >  239  :  someonone you know be try to contact you via our date service to find out who it could be call from your mobile or landline 0 9 0 64 0 153 0 7 box334sk38ch
+[[ SPAM SALAH >  344  :  u r subscribe 2 textcomp 25 0 wkly comp 1st wk s free question follow subsequent wks charged@15 0 p msg 2 unsubscribe txt stop 2 84128 custcare 0 87124 0 5 0 2 0
+[[ SPAM SALAH >  366  :  call 0 9 0 9535 0 3 0 1 and send our girls into erotic ecstacy just 6 0 p min to stop texts call 0 871246 0 324 nat rate
+[[ SPAM SALAH >  370  :  important message this be a final contact attempt you have important message wait out our customer claim dept expire 13 4 0 4 call 0 87175 0 7382 now
+[[ SPAM SALAH >  372  :  date i have have two of these only start after i send a text to talk sport radio last week any connection do you think or coincidence
+[[ SPAM SALAH >  379  :  the current lead bid be 151 to pause this auction send out customer care 0 871872627 0
+[[ SPAM SALAH >  380  :  free entry to the gr8prizes wkly comp 4 a chance to win the latest nokia 88 0 0 psp or 25 0 cash every wk txt great to 8 0 878 http www gr8prizes com 0 87157 0 5 0 22
+[[ SPAM SALAH >  383  :  you have 1 new message call 0 2 0 7 0 83 6 0 89
+[[ SPAM SALAH >  445  :  you have win a guarantee 32 0 0 0 award or maybe even 1 0 0 0 cash to claim ur award call free on 0 8 0 0 18 its a legitimat efreefone number wat do u think
+[[ SPAM SALAH >  451  :  latest news police station toilet steal cop have nothing to go on
+[[ SPAM SALAH >  458  :  for the most sparkle shop break from 45 per person call 0 121 2 0 25 0 5 0 or visit www shortbreaks org uk
+[[ SPAM SALAH >  464  :  txt call to no 86888 claim your reward of 3 hours talk time to use from your phone now subscribe6gbp mnth inc 3hrs 16 stop txtstop www gamb tv
+[[ SPAM SALAH >  468  :  http tms widelive com index wml id 82 0 554ad 0 a17 0 5572711 first true c c ringtone
+[[ SPAM SALAH >  470  :  urgent last weekend be draw show that you have win 1 0 0 0 cash or a spanish holiday call now 0 9 0 5 0 0 0 0 332 to claim t c rstm sw7 3ss 15 0 ppm
+[[ SPAM SALAH >  484  :  urgent we be try to contact you last weekend draw show u have win a 1 0 0 0 prize guarantee call 0 9 0 64 0 17295 claim code k52 valid 12hrs 15 0 p pm
+[[ SPAM SALAH >  489  :  2p per min to call germany 0 844835 0 0 55 from your bt line just 2p per min check planettalkinstant com for info t be c be text stop to opt out
+[[ SPAM SALAH >  494  :  marvel mobile play the official ultimate spider man game 4 5 0 on ur mobile right now text spider to 83338 for the game we ll send u a free 8ball wallpaper
+[[ SPAM SALAH >  539  :  want explicit sex in 3 0 secs ring 0 2 0 73162414 now cost 2 0 p min gsex pobox 2667 wc1n 3xx
+[[ SPAM SALAH >  542  :  ask 3mobile if 0 87 0 chatlines inclu in free mins india cust servs sed yes l8er get mega bill 3 dont giv a shit bailiff due in days i o 25 0 3 want 8 0 0
+[[ SPAM SALAH >  568  :  reminder from o2 to get 2 5 0 pound free call credit and detail of great offer pls reply 2 this text with your valid name house no and postcode
+[[[ akurasi total  0.9407665505226481
+[[[ akurasi total ham  1.0
+[[[ akurasi total spam  0.5405405405405406
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9407665505226481
+============================= random_forest  - Combination  F7 =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : random_forest
+[[ SPAM SALAH >  30  :  i would like to tell you my deepest darkest fantasy call me 0 9 0 94646631 just 6 0 p min to stop texts call 0 871246 0 324 nat rate
+[[ SPAM SALAH >  43  :  jamster to get your free wallpaper text heart to 88888 now t c apply 16 only need help call 0 87 0 1213186
+[[ SPAM SALAH >  68  :  83 0 39 62735 45 0 uk break accommodationvouchers term condition apply 2 claim you mustprovide your claim number which be 15541
+[[ SPAM SALAH >  100  :  themob hit the link to get a premium pink panther game the new no 1 from sugababes a crazy zebra animation or a badass hoody wallpaper all 4 free
+[[ SPAM SALAH >  104  :  this msg be for your mobile content order it have be resent as previous attempt fail due to network error query to customersqueries@netvision uk com
+[[ SPAM SALAH >  112  :  you have 1 new message please call 0 87152 0 5273
+[[ SPAM SALAH >  122  :  private your 2 0 0 3 account statement for 0 78
+[[ SPAM SALAH >  149  :  get your garden ready for summer with a free selection of summer bulbs and seed worth 33 5 0 only with the scotsman this saturday to stop go2 notxt co uk
+[[ SPAM SALAH >  192  :  our record indicate u maybe entitle to 5 0 0 0 pound in compensation for the accident you have to claim 4 free reply with claim to this msg 2 stop txt stop
+[[ SPAM SALAH >  370  :  important message this be a final contact attempt you have important message wait out our customer claim dept expire 13 4 0 4 call 0 87175 0 7382 now
+[[ SPAM SALAH >  372  :  date i have have two of these only start after i send a text to talk sport radio last week any connection do you think or coincidence
+[[ SPAM SALAH >  379  :  the current lead bid be 151 to pause this auction send out customer care 0 871872627 0
+[[ SPAM SALAH >  380  :  free entry to the gr8prizes wkly comp 4 a chance to win the latest nokia 88 0 0 psp or 25 0 cash every wk txt great to 8 0 878 http www gr8prizes com 0 87157 0 5 0 22
+[[ SPAM SALAH >  429  :  santa call would your little ones like a call from santa xmas eve call 0 9 0 58 0 94583 to book your time
+[[ SPAM SALAH >  445  :  you have win a guarantee 32 0 0 0 award or maybe even 1 0 0 0 cash to claim ur award call free on 0 8 0 0 18 its a legitimat efreefone number wat do u think
+[[ SPAM SALAH >  451  :  latest news police station toilet steal cop have nothing to go on
+[[ SPAM SALAH >  458  :  for the most sparkle shop break from 45 per person call 0 121 2 0 25 0 5 0 or visit www shortbreaks org uk
+[[ SPAM SALAH >  464  :  txt call to no 86888 claim your reward of 3 hours talk time to use from your phone now subscribe6gbp mnth inc 3hrs 16 stop txtstop www gamb tv
+[[ SPAM SALAH >  468  :  http tms widelive com index wml id 82 0 554ad 0 a17 0 5572711 first true c c ringtone
+[[ SPAM SALAH >  469  :  get your garden ready for summer with a free selection of summer bulbs and seed worth 33 5 0 only with the scotsman this saturday to stop go2 notxt co uk
+[[ SPAM SALAH >  494  :  marvel mobile play the official ultimate spider man game 4 5 0 on ur mobile right now text spider to 83338 for the game we ll send u a free 8ball wallpaper
+[[ SPAM SALAH >  539  :  want explicit sex in 3 0 secs ring 0 2 0 73162414 now cost 2 0 p min gsex pobox 2667 wc1n 3xx
+[[ SPAM SALAH >  542  :  ask 3mobile if 0 87 0 chatlines inclu in free mins india cust servs sed yes l8er get mega bill 3 dont giv a shit bailiff due in days i o 25 0 3 want 8 0 0
+[[ SPAM SALAH >  568  :  reminder from o2 to get 2 5 0 pound free call credit and detail of great offer pls reply 2 this text with your valid name house no and postcode
+[[[ akurasi total  0.9581881533101045
+[[[ akurasi total ham  1.0
+[[[ akurasi total spam  0.6756756756756757
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9581881533101045
+============================= random_forest  - Combination  F8 =============================
+> Train data loaded & pre processed.
+> Test data loaded & pre processed.
+> Experiment : random_forest
+[[ SPAM SALAH >  30  :  i would like to tell you my deepest darkest fantasy call me 0 9 0 94646631 just 6 0 p min to stop texts call 0 871246 0 324 nat rate
+[[ SPAM SALAH >  43  :  jamster to get your free wallpaper text heart to 88888 now t c apply 16 only need help call 0 87 0 1213186
+[[ SPAM SALAH >  68  :  83 0 39 62735 45 0 uk break accommodationvouchers term condition apply 2 claim you mustprovide your claim number which be 15541
+[[ SPAM SALAH >  73  :  win a 2 0 0 shop spree every week start now 2 play text store to 88 0 39 skilgme tscs 0 871474 0 323 1winawk age16 1 5 0 perweeksub
+[[ SPAM SALAH >  100  :  themob hit the link to get a premium pink panther game the new no 1 from sugababes a crazy zebra animation or a badass hoody wallpaper all 4 free
+[[ SPAM SALAH >  104  :  this msg be for your mobile content order it have be resent as previous attempt fail due to network error query to customersqueries@netvision uk com
+[[ SPAM SALAH >  122  :  private your 2 0 0 3 account statement for 0 78
+[[ SPAM SALAH >  149  :  get your garden ready for summer with a free selection of summer bulbs and seed worth 33 5 0 only with the scotsman this saturday to stop go2 notxt co uk
+[[ SPAM SALAH >  180  :  sms auction a brand new nokia 725 0 be up 4 auction today auction be free 2 join take part txt nokia to 86 0 21 now
+[[ SPAM SALAH >  239  :  someonone you know be try to contact you via our date service to find out who it could be call from your mobile or landline 0 9 0 64 0 153 0 7 box334sk38ch
+[[ SPAM SALAH >  372  :  date i have have two of these only start after i send a text to talk sport radio last week any connection do you think or coincidence
+[[ SPAM SALAH >  379  :  the current lead bid be 151 to pause this auction send out customer care 0 871872627 0
+[[ SPAM SALAH >  380  :  free entry to the gr8prizes wkly comp 4 a chance to win the latest nokia 88 0 0 psp or 25 0 cash every wk txt great to 8 0 878 http www gr8prizes com 0 87157 0 5 0 22
+[[ SPAM SALAH >  383  :  you have 1 new message call 0 2 0 7 0 83 6 0 89
+[[ SPAM SALAH >  429  :  santa call would your little ones like a call from santa xmas eve call 0 9 0 58 0 94583 to book your time
+[[ SPAM SALAH >  445  :  you have win a guarantee 32 0 0 0 award or maybe even 1 0 0 0 cash to claim ur award call free on 0 8 0 0 18 its a legitimat efreefone number wat do u think
+[[ SPAM SALAH >  451  :  latest news police station toilet steal cop have nothing to go on
+[[ SPAM SALAH >  458  :  for the most sparkle shop break from 45 per person call 0 121 2 0 25 0 5 0 or visit www shortbreaks org uk
+[[ SPAM SALAH >  464  :  txt call to no 86888 claim your reward of 3 hours talk time to use from your phone now subscribe6gbp mnth inc 3hrs 16 stop txtstop www gamb tv
+[[ SPAM SALAH >  468  :  http tms widelive com index wml id 82 0 554ad 0 a17 0 5572711 first true c c ringtone
+[[ SPAM SALAH >  469  :  get your garden ready for summer with a free selection of summer bulbs and seed worth 33 5 0 only with the scotsman this saturday to stop go2 notxt co uk
+[[ SPAM SALAH >  489  :  2p per min to call germany 0 844835 0 0 55 from your bt line just 2p per min check planettalkinstant com for info t be c be text stop to opt out
+[[ SPAM SALAH >  539  :  want explicit sex in 3 0 secs ring 0 2 0 73162414 now cost 2 0 p min gsex pobox 2667 wc1n 3xx
+[[ SPAM SALAH >  542  :  ask 3mobile if 0 87 0 chatlines inclu in free mins india cust servs sed yes l8er get mega bill 3 dont giv a shit bailiff due in days i o 25 0 3 want 8 0 0
+[[ SPAM SALAH >  568  :  reminder from o2 to get 2 5 0 pound free call credit and detail of great offer pls reply 2 this text with your valid name house no and postcode
+[[[ akurasi total  0.9564459930313589
+[[[ akurasi total ham  1.0
+[[[ akurasi total spam  0.6621621621621622
+[[[ total data 574
+[[[ total ham data  500
+[[[ total spam data  74
+574 574
+0.9564459930313589
+time :  4074.746709400478
+
+Process finished with exit code 0
