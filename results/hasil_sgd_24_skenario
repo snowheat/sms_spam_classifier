@@ -272,17 +272,17 @@
 > Train data loaded & pre processed.
 > Test data loaded & pre processed.
 > Experiment : sgd
-[[ SPAM SALAH >  30  :  would like tell deepest darkest fantasi call 0 9 0 94646631 6 0 p min stop text call 0 871246 0 324 nat rate
-[[ SPAM SALAH >  37  :  wo believ true incred txt repli g learn truli amaz thing blow mind o2fwd onli 18p txt
+C:\Users\insan\.conda\envs\nlp2018\lib\site-packages\sklearn\linear_model\stochastic_gradient.py:128: FutureWarning: max_iter and tol parameters have been added in <class 'sklearn.linear_model.stochastic_gradient.SGDClassifier'> in 0.19. If both are left unset, they default to max_iter=5 and tol=None. If tol is not None, max_iter defaults to max_iter=1000. From 0.21, default max_iter will be 1000, and default tol will be 1e-3.
+  "and default tol will be 1e-3." % type(self), FutureWarning)
+[[ SPAM SALAH >  30  :  i'd like tell deepest darkest fantasi call 0 9 0 94646631 6 0 p min stop text call 0 871246 0 324 nat rate
+[[ SPAM SALAH >  37  :  believ it' true it' incred txt repli g learn truli amaz thing blow mind o2fwd onli 18p txt
 [[ SPAM SALAH >  41  :  natali 2 0 f invit friend repli ye 165 165 see www sm ac u natalie2k9 stop send stop frnd 62468
 [[ SPAM SALAH >  43  :  jamster get free wallpap text heart 88888 c appli 16 onli need help call 0 87 0 1213186
 [[ SPAM SALAH >  73  :  win 2 0 0 shop spree everi week start 2 play text store 88 0 39 skilgm tsc 0 871474 0 323 1winawk age16 1 5 0 perweeksub
-[[ SPAM SALAH >  76  :  thi 2nd attempt contract u thi week top prize either 1 0 0 0 cash 2 0 0 prize call 0 9 0 66361921
 [[ SPAM SALAH >  100  :  themob hit link get premium pink panther game new 1 sugabab crazi zebra anim badass hoodi wallpap 4 free
 [[ SPAM SALAH >  112  :  1 new messag pleas call 0 87152 0 5273
 [[ SPAM SALAH >  122  :  privat 2 0 0 3 account statement 0 78
 [[ SPAM SALAH >  149  :  get garden readi summer free select summer bulb seed worth 33 5 0 onli scotsman thi saturday stop go2 notxt co uk
-[[ SPAM SALAH >  166  :  congrat 2 mobil 3g videophon r call 0 9 0 6345813 0 videochat wid ur mate play java game dload polyph music nolin rentl bx42 0 ip4 5we 15 0 p
 [[ SPAM SALAH >  202  :  call germani onli 1 penc per minut call fix line via access number 0 844 861 85 85 prepay direct access www telediscount co uk
 [[ SPAM SALAH >  216  :  natalja 25 f invit friend repli ye 44 0 44 0 see www sm ac u nat27 0 8198 0 stop send stop frnd 62468
 [[ SPAM SALAH >  366  :  call 0 9 0 9535 0 3 0 1 send girl erot ecstaci 6 0 p min stop text call 0 871246 0 324 nat rate
@@ -292,19 +292,21 @@
 [[ SPAM SALAH >  383  :  1 new messag call 0 2 0 7 0 83 6 0 89
 [[ SPAM SALAH >  429  :  santa call would littl one like call santa xma eve call 0 9 0 58 0 94583 book time
 [[ SPAM SALAH >  451  :  latest news polic station toilet stolen cop noth go
+[[ SPAM SALAH >  464  :  txt call 86888 claim reward 3 hour talk time use phone subscribe6gbp mnth inc 3hr 16 stop txtstop www gamb tv
 [[ SPAM SALAH >  468  :  http tm widel com index wml id 82 0 554ad 0 a17 0 5572711 first true c c rington
 [[ SPAM SALAH >  469  :  get garden readi summer free select summer bulb seed worth 33 5 0 onli scotsman thi saturday stop go2 notxt co uk
 [[ SPAM SALAH >  539  :  want explicit sex 3 0 sec ring 0 2 0 73162414 cost 2 0 p min gsex pobox 2667 wc1n 3xx
 [[ SPAM SALAH >  542  :  ask 3mobil 0 87 0 chatlin inclu free min india cust serv sed ye l8er got mega bill 3 dont giv shit bailiff due day 25 0 3 want 8 0 0
 [[ SPAM SALAH >  568  :  remind o2 get 2 5 0 pound free call credit detail great offer pl repli 2 thi text valid name hous postcod
-[[[ akurasi total  0.9564459930313589
+[[[ akurasi total  0.9581881533101045
 [[[ akurasi total ham  1.0
-[[[ akurasi total spam  0.6621621621621622
+[[[ akurasi total spam  0.6756756756756757
 [[[ total data 574
 [[[ total ham data  500
 [[[ total spam data  74
 574 574
-0.9564459930313589
+0.9581881533101045
+time :  76.8213134291357
 ============================= sgd  - Combination  D =============================
 > Train data loaded & pre processed.
 > Test data loaded & pre processed.
