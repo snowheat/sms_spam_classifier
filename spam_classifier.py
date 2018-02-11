@@ -48,8 +48,13 @@ class SpamClassifier:
             'svd_max_features' : svd_max_features,
         }
 
+        if self.__options['tfidf_max_features'] is not None:
+            if self.__options['svd_max_features'] >= self.__options['tfidf_max_features']:
+                self.__options['svd_max_features'] = self.__options['tfidf_max_features'] - int(0.25*self.__options['tfidf_max_features'])
+
+        print("lihat kemari ", self.__options['svd_max_features'])
         # Vectorizer
-        self.__vectorizer = CountVectorizer(self.__options['tfidf_max_features'])
+        self.__vectorizer = CountVectorizer(max_features=self.__options['tfidf_max_features'])
 
         # TF-IDF Transformer
         self.__tfidf_transformer = TfidfTransformer()

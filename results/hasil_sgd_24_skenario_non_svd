@@ -3,6 +3,8 @@ C:\Users\insan\.conda\envs\nlp2018\python.exe "F:/S2/IF5282 Pemrosesan Bahasa Al
 > Train data loaded & pre processed.
 > Test data loaded & pre processed.
 > Experiment : sgd
+C:\Users\insan\.conda\envs\nlp2018\lib\site-packages\sklearn\linear_model\stochastic_gradient.py:128: FutureWarning: max_iter and tol parameters have been added in <class 'sklearn.linear_model.stochastic_gradient.SGDClassifier'> in 0.19. If both are left unset, they default to max_iter=5 and tol=None. If tol is not None, max_iter defaults to max_iter=1000. From 0.21, default max_iter will be 1000, and default tol will be 1e-3.
+  "and default tol will be 1e-3." % type(self), FutureWarning)
 [[ HAM SALAH >  159  :  k k sm chat
 [[ SPAM SALAH >  372  :  date two onli start sent text talk sport radio last week ani connect think coincid
 [[ SPAM SALAH >  451  :  latest news polic station toilet stolen cop noth go
@@ -54,36 +56,42 @@ C:\Users\insan\.conda\envs\nlp2018\python.exe "F:/S2/IF5282 Pemrosesan Bahasa Al
 > Train data loaded & pre processed.
 > Test data loaded & pre processed.
 > Experiment : sgd
+[[ HAM SALAH >  96  :  hi shanil rakhesh thank exchang uncut diamond stuff leav back excel servic dino prem
+[[ SPAM SALAH >  122  :  privat 2 0 0 3 account statement 0 78
 [[ HAM SALAH >  159  :  k k sm chat
 [[ SPAM SALAH >  372  :  date two onli start sent text talk sport radio last week ani connect think coincid
 [[ SPAM SALAH >  451  :  latest news polic station toilet stolen cop noth go
 [[ HAM SALAH >  477  :  dhoni luck win big titl win
 [[ SPAM SALAH >  542  :  ask 3mobil 0 87 0 chatlin inclu free min india cust serv sed ye l8er got mega bill 3 dont giv shit bailiff due day 25 0 3 want 8 0 0
-[[[ akurasi total  0.9912891986062717
-[[[ akurasi total ham  0.996
-[[[ akurasi total spam  0.9594594594594594
+[[[ akurasi total  0.9878048780487805
+[[[ akurasi total ham  0.994
+[[[ akurasi total spam  0.9459459459459459
 [[[ total data 574
 [[[ total ham data  500
 [[[ total spam data  74
 574 574
-0.9912891986062717
+0.9878048780487805
 ============================= sgd  - Combination  B5 =============================
 > Train data loaded & pre processed.
 > Test data loaded & pre processed.
 > Experiment : sgd
+[[ HAM SALAH >  56  :  train back northampton i'm afraid i'm stay skyve today ho ho around wednesday though fanci comedi club thi week way
+[[ HAM SALAH >  96  :  hi shanil rakhesh thank exchang uncut diamond stuff leav back excel servic dino prem
+[[ SPAM SALAH >  122  :  privat 2 0 0 3 account statement 0 78
 [[ HAM SALAH >  159  :  k k sm chat
+[[ HAM SALAH >  356  :  aiyo co sm neva repli wait 4 repli lar tot havent finish ur lab wat
 [[ SPAM SALAH >  372  :  date two onli start sent text talk sport radio last week ani connect think coincid
+[[ SPAM SALAH >  379  :  current lead bid 151 paus thi auction send custom care 0 871872627 0
 [[ SPAM SALAH >  451  :  latest news polic station toilet stolen cop noth go
 [[ HAM SALAH >  477  :  dhoni luck win big titl win
-[[ SPAM SALAH >  542  :  ask 3mobil 0 87 0 chatlin inclu free min india cust serv sed ye l8er got mega bill 3 dont giv shit bailiff due day 25 0 3 want 8 0 0
-[[[ akurasi total  0.9912891986062717
-[[[ akurasi total ham  0.996
-[[[ akurasi total spam  0.9594594594594594
+[[[ akurasi total  0.9843205574912892
+[[[ akurasi total ham  0.99
+[[[ akurasi total spam  0.9459459459459459
 [[[ total data 574
 [[[ total ham data  500
 [[[ total spam data  74
 574 574
-0.9912891986062717
+0.9843205574912892
 ============================= sgd  - Combination  B6 =============================
 > Train data loaded & pre processed.
 > Test data loaded & pre processed.
@@ -122,19 +130,21 @@ C:\Users\insan\.conda\envs\nlp2018\python.exe "F:/S2/IF5282 Pemrosesan Bahasa Al
 > Train data loaded & pre processed.
 > Test data loaded & pre processed.
 > Experiment : sgd
+[[ HAM SALAH >  96  :  hi shanil rakhesh thank exchang uncut diamond stuff leav back excel servic dino prem
+[[ SPAM SALAH >  122  :  privat 2 0 0 3 account statement 0 78
 [[ HAM SALAH >  159  :  k k sm chat
 [[ SPAM SALAH >  372  :  date two onli start sent text talk sport radio last week ani connect think coincid
 [[ SPAM SALAH >  451  :  latest news polic station toilet stolen cop noth go
 [[ HAM SALAH >  477  :  dhoni luck win big titl win
 [[ SPAM SALAH >  542  :  ask 3mobil 0 87 0 chatlin inclu free min india cust serv sed ye l8er got mega bill 3 dont giv shit bailiff due day 25 0 3 want 8 0 0
-[[[ akurasi total  0.9912891986062717
-[[[ akurasi total ham  0.996
-[[[ akurasi total spam  0.9594594594594594
+[[[ akurasi total  0.9878048780487805
+[[[ akurasi total ham  0.994
+[[[ akurasi total spam  0.9459459459459459
 [[[ total data 574
 [[[ total ham data  500
 [[[ total spam data  74
 574 574
-0.9912891986062717
+0.9878048780487805
 ============================= sgd  - Combination  D =============================
 > Train data loaded & pre processed.
 > Test data loaded & pre processed.
@@ -175,56 +185,58 @@ C:\Users\insan\.conda\envs\nlp2018\python.exe "F:/S2/IF5282 Pemrosesan Bahasa Al
 > Train data loaded & pre processed.
 > Test data loaded & pre processed.
 > Experiment : sgd
-[[ HAM SALAH >  96  :  hi shanil rakhesh thank exchange uncut diamond stuff leave back excellent service dino prem
 [[ HAM SALAH >  159  :  k k sms chat
 [[ SPAM SALAH >  372  :  date two start send text talk sport radio last week connection think coincidence
 [[ SPAM SALAH >  451  :  latest news police station toilet steal cop nothing go
 [[ HAM SALAH >  477  :  dhoni luck win big title win
 [[ SPAM SALAH >  542  :  ask 3mobile 0 87 0 chatlines inclu free mins india cust servs sed yes l8er get mega bill 3 dont giv shit bailiff due days 25 0 3 want 8 0 0
-[[[ akurasi total  0.9895470383275261
-[[[ akurasi total ham  0.994
+[[[ akurasi total  0.9912891986062717
+[[[ akurasi total ham  0.996
 [[[ akurasi total spam  0.9594594594594594
 [[[ total data 574
 [[[ total ham data  500
 [[[ total spam data  74
 574 574
-0.9895470383275261
+0.9912891986062717
 ============================= sgd  - Combination  D4 =============================
 > Train data loaded & pre processed.
 > Test data loaded & pre processed.
 > Experiment : sgd
+[[ HAM SALAH >  46  :  send jd customer service cum account executive ur mail id detail contact us
+[[ HAM SALAH >  67  :  call later afternoon onwords mtnl service get problem south mumbai hear listen
 [[ HAM SALAH >  96  :  hi shanil rakhesh thank exchange uncut diamond stuff leave back excellent service dino prem
 [[ HAM SALAH >  159  :  k k sms chat
 [[ SPAM SALAH >  372  :  date two start send text talk sport radio last week connection think coincidence
 [[ SPAM SALAH >  451  :  latest news police station toilet steal cop nothing go
 [[ HAM SALAH >  477  :  dhoni luck win big title win
-[[ SPAM SALAH >  542  :  ask 3mobile 0 87 0 chatlines inclu free mins india cust servs sed yes l8er get mega bill 3 dont giv shit bailiff due days 25 0 3 want 8 0 0
-[[[ akurasi total  0.9895470383275261
-[[[ akurasi total ham  0.994
-[[[ akurasi total spam  0.9594594594594594
+[[[ akurasi total  0.9878048780487805
+[[[ akurasi total ham  0.99
+[[[ akurasi total spam  0.972972972972973
 [[[ total data 574
 [[[ total ham data  500
 [[[ total spam data  74
 574 574
-0.9895470383275261
+0.9878048780487805
 ============================= sgd  - Combination  D5 =============================
 > Train data loaded & pre processed.
 > Test data loaded & pre processed.
 > Experiment : sgd
 [[ HAM SALAH >  96  :  hi shanil rakhesh thank exchange uncut diamond stuff leave back excellent service dino prem
+[[ SPAM SALAH >  122  :  private 2 0 0 3 account statement 0 78
 [[ HAM SALAH >  159  :  k k sms chat
 [[ SPAM SALAH >  372  :  date two start send text talk sport radio last week connection think coincidence
+[[ SPAM SALAH >  379  :  current lead bid 151 pause auction send customer care 0 871872627 0
 [[ SPAM SALAH >  451  :  latest news police station toilet steal cop nothing go
 [[ HAM SALAH >  477  :  dhoni luck win big title win
 [[ SPAM SALAH >  542  :  ask 3mobile 0 87 0 chatlines inclu free mins india cust servs sed yes l8er get mega bill 3 dont giv shit bailiff due days 25 0 3 want 8 0 0
-[[[ akurasi total  0.9895470383275261
+[[[ akurasi total  0.9860627177700348
 [[[ akurasi total ham  0.994
-[[[ akurasi total spam  0.9594594594594594
+[[[ akurasi total spam  0.9324324324324325
 [[[ total data 574
 [[[ total ham data  500
 [[[ total spam data  74
 574 574
-0.9895470383275261
+0.9860627177700348
 ============================= sgd  - Combination  D6 =============================
 > Train data loaded & pre processed.
 > Test data loaded & pre processed.
@@ -247,38 +259,38 @@ C:\Users\insan\.conda\envs\nlp2018\python.exe "F:/S2/IF5282 Pemrosesan Bahasa Al
 > Train data loaded & pre processed.
 > Test data loaded & pre processed.
 > Experiment : sgd
-[[ HAM SALAH >  96  :  hi shanil rakhesh thank exchange uncut diamond stuff leave back excellent service dino prem
 [[ HAM SALAH >  159  :  k k sms chat
 [[ SPAM SALAH >  372  :  date two start send text talk sport radio last week connection think coincidence
 [[ SPAM SALAH >  451  :  latest news police station toilet steal cop nothing go
 [[ HAM SALAH >  477  :  dhoni luck win big title win
 [[ SPAM SALAH >  542  :  ask 3mobile 0 87 0 chatlines inclu free mins india cust servs sed yes l8er get mega bill 3 dont giv shit bailiff due days 25 0 3 want 8 0 0
-[[[ akurasi total  0.9895470383275261
-[[[ akurasi total ham  0.994
+[[[ akurasi total  0.9912891986062717
+[[[ akurasi total ham  0.996
 [[[ akurasi total spam  0.9594594594594594
 [[[ total data 574
 [[[ total ham data  500
 [[[ total spam data  74
 574 574
-0.9895470383275261
+0.9912891986062717
 ============================= sgd  - Combination  D8 =============================
 > Train data loaded & pre processed.
 > Test data loaded & pre processed.
 > Experiment : sgd
+[[ HAM SALAH >  46  :  send jd customer service cum account executive ur mail id detail contact us
+[[ HAM SALAH >  67  :  call later afternoon onwords mtnl service get problem south mumbai hear listen
 [[ HAM SALAH >  96  :  hi shanil rakhesh thank exchange uncut diamond stuff leave back excellent service dino prem
 [[ HAM SALAH >  159  :  k k sms chat
 [[ SPAM SALAH >  372  :  date two start send text talk sport radio last week connection think coincidence
 [[ SPAM SALAH >  451  :  latest news police station toilet steal cop nothing go
 [[ HAM SALAH >  477  :  dhoni luck win big title win
-[[ SPAM SALAH >  542  :  ask 3mobile 0 87 0 chatlines inclu free mins india cust servs sed yes l8er get mega bill 3 dont giv shit bailiff due days 25 0 3 want 8 0 0
-[[[ akurasi total  0.9895470383275261
-[[[ akurasi total ham  0.994
-[[[ akurasi total spam  0.9594594594594594
+[[[ akurasi total  0.9878048780487805
+[[[ akurasi total ham  0.99
+[[[ akurasi total spam  0.972972972972973
 [[[ total data 574
 [[[ total ham data  500
 [[[ total spam data  74
 574 574
-0.9895470383275261
+0.9878048780487805
 ============================= sgd  - Combination  F =============================
 > Train data loaded & pre processed.
 > Test data loaded & pre processed.
@@ -317,53 +329,62 @@ C:\Users\insan\.conda\envs\nlp2018\python.exe "F:/S2/IF5282 Pemrosesan Bahasa Al
 > Train data loaded & pre processed.
 > Test data loaded & pre processed.
 > Experiment : sgd
+[[ HAM SALAH >  46  :  we have send jd for customer service cum account executive to ur mail id for detail contact us
 [[ HAM SALAH >  159  :  k k sms chat with me
 [[ SPAM SALAH >  372  :  date i have have two of these only start after i send a text to talk sport radio last week any connection do you think or coincidence
 [[ SPAM SALAH >  451  :  latest news police station toilet steal cop have nothing to go on
 [[ HAM SALAH >  477  :  dhoni have luck to win some big title so we will win
 [[ SPAM SALAH >  542  :  ask 3mobile if 0 87 0 chatlines inclu in free mins india cust servs sed yes l8er get mega bill 3 dont giv a shit bailiff due in days i o 25 0 3 want 8 0 0
-[[[ akurasi total  0.9912891986062717
-[[[ akurasi total ham  0.996
+[[[ akurasi total  0.9895470383275261
+[[[ akurasi total ham  0.994
 [[[ akurasi total spam  0.9594594594594594
 [[[ total data 574
 [[[ total ham data  500
 [[[ total spam data  74
 574 574
-0.9912891986062717
+0.9895470383275261
 ============================= sgd  - Combination  F4 =============================
 > Train data loaded & pre processed.
 > Test data loaded & pre processed.
 > Experiment : sgd
+[[ HAM SALAH >  96  :  hi shanil rakhesh here thank i have exchange the uncut diamond stuff leave back excellent service by dino and prem
+[[ SPAM SALAH >  122  :  private your 2 0 0 3 account statement for 0 78
 [[ HAM SALAH >  159  :  k k sms chat with me
+[[ HAM SALAH >  185  :  fuuuuck i need to stop sleepin sup
 [[ SPAM SALAH >  372  :  date i have have two of these only start after i send a text to talk sport radio last week any connection do you think or coincidence
+[[ SPAM SALAH >  379  :  the current lead bid be 151 to pause this auction send out customer care 0 871872627 0
 [[ SPAM SALAH >  451  :  latest news police station toilet steal cop have nothing to go on
 [[ HAM SALAH >  477  :  dhoni have luck to win some big title so we will win
 [[ SPAM SALAH >  542  :  ask 3mobile if 0 87 0 chatlines inclu in free mins india cust servs sed yes l8er get mega bill 3 dont giv a shit bailiff due in days i o 25 0 3 want 8 0 0
-[[[ akurasi total  0.9912891986062717
-[[[ akurasi total ham  0.996
-[[[ akurasi total spam  0.9594594594594594
+[[[ akurasi total  0.9843205574912892
+[[[ akurasi total ham  0.992
+[[[ akurasi total spam  0.9324324324324325
 [[[ total data 574
 [[[ total ham data  500
 [[[ total spam data  74
 574 574
-0.9912891986062717
+0.9843205574912892
 ============================= sgd  - Combination  F5 =============================
 > Train data loaded & pre processed.
 > Test data loaded & pre processed.
 > Experiment : sgd
+[[ HAM SALAH >  46  :  we have send jd for customer service cum account executive to ur mail id for detail contact us
+[[ HAM SALAH >  96  :  hi shanil rakhesh here thank i have exchange the uncut diamond stuff leave back excellent service by dino and prem
+[[ SPAM SALAH >  122  :  private your 2 0 0 3 account statement for 0 78
 [[ HAM SALAH >  159  :  k k sms chat with me
-[[ SPAM SALAH >  372  :  date i have have two of these only start after i send a text to talk sport radio last week any connection do you think or coincidence
+[[ HAM SALAH >  185  :  fuuuuck i need to stop sleepin sup
+[[ SPAM SALAH >  379  :  the current lead bid be 151 to pause this auction send out customer care 0 871872627 0
 [[ SPAM SALAH >  451  :  latest news police station toilet steal cop have nothing to go on
 [[ HAM SALAH >  477  :  dhoni have luck to win some big title so we will win
 [[ SPAM SALAH >  542  :  ask 3mobile if 0 87 0 chatlines inclu in free mins india cust servs sed yes l8er get mega bill 3 dont giv a shit bailiff due in days i o 25 0 3 want 8 0 0
-[[[ akurasi total  0.9912891986062717
-[[[ akurasi total ham  0.996
-[[[ akurasi total spam  0.9594594594594594
+[[[ akurasi total  0.9843205574912892
+[[[ akurasi total ham  0.99
+[[[ akurasi total spam  0.9459459459459459
 [[[ total data 574
 [[[ total ham data  500
 [[[ total spam data  74
 574 574
-0.9912891986062717
+0.9843205574912892
 ============================= sgd  - Combination  F6 =============================
 > Train data loaded & pre processed.
 > Test data loaded & pre processed.
@@ -385,36 +406,41 @@ C:\Users\insan\.conda\envs\nlp2018\python.exe "F:/S2/IF5282 Pemrosesan Bahasa Al
 > Train data loaded & pre processed.
 > Test data loaded & pre processed.
 > Experiment : sgd
+[[ HAM SALAH >  46  :  we have send jd for customer service cum account executive to ur mail id for detail contact us
 [[ HAM SALAH >  159  :  k k sms chat with me
 [[ SPAM SALAH >  372  :  date i have have two of these only start after i send a text to talk sport radio last week any connection do you think or coincidence
 [[ SPAM SALAH >  451  :  latest news police station toilet steal cop have nothing to go on
 [[ HAM SALAH >  477  :  dhoni have luck to win some big title so we will win
 [[ SPAM SALAH >  542  :  ask 3mobile if 0 87 0 chatlines inclu in free mins india cust servs sed yes l8er get mega bill 3 dont giv a shit bailiff due in days i o 25 0 3 want 8 0 0
-[[[ akurasi total  0.9912891986062717
-[[[ akurasi total ham  0.996
+[[[ akurasi total  0.9895470383275261
+[[[ akurasi total ham  0.994
 [[[ akurasi total spam  0.9594594594594594
 [[[ total data 574
 [[[ total ham data  500
 [[[ total spam data  74
 574 574
-0.9912891986062717
+0.9895470383275261
 ============================= sgd  - Combination  F8 =============================
 > Train data loaded & pre processed.
 > Test data loaded & pre processed.
 > Experiment : sgd
+[[ HAM SALAH >  96  :  hi shanil rakhesh here thank i have exchange the uncut diamond stuff leave back excellent service by dino and prem
+[[ SPAM SALAH >  122  :  private your 2 0 0 3 account statement for 0 78
 [[ HAM SALAH >  159  :  k k sms chat with me
+[[ HAM SALAH >  185  :  fuuuuck i need to stop sleepin sup
 [[ SPAM SALAH >  372  :  date i have have two of these only start after i send a text to talk sport radio last week any connection do you think or coincidence
+[[ SPAM SALAH >  379  :  the current lead bid be 151 to pause this auction send out customer care 0 871872627 0
 [[ SPAM SALAH >  451  :  latest news police station toilet steal cop have nothing to go on
 [[ HAM SALAH >  477  :  dhoni have luck to win some big title so we will win
 [[ SPAM SALAH >  542  :  ask 3mobile if 0 87 0 chatlines inclu in free mins india cust servs sed yes l8er get mega bill 3 dont giv a shit bailiff due in days i o 25 0 3 want 8 0 0
-[[[ akurasi total  0.9912891986062717
-[[[ akurasi total ham  0.996
-[[[ akurasi total spam  0.9594594594594594
+[[[ akurasi total  0.9843205574912892
+[[[ akurasi total ham  0.992
+[[[ akurasi total spam  0.9324324324324325
 [[[ total data 574
 [[[ total ham data  500
 [[[ total spam data  74
 574 574
-0.9912891986062717
-time :  41.2648822576653
+0.9843205574912892
+time :  59.4985648592433
 
 Process finished with exit code 0

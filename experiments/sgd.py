@@ -13,14 +13,14 @@ class SGD:
 
 
         self.__model = linear_model.SGDClassifier(random_state=1)
-
-        self.__model = self.__model.fit(X_training_data['data_tfidf'], X_training_data['labels'])
-
         """
+        self.__model = self.__model.fit(X_training_data['data_tfidf'], X_training_data['labels'])
+        """
+
         self.__u, self.__s, self.__vt = svds(X_training_data['data_tfidf'].transpose(), X_training_data['svd_max_features'])
 
         self.__model = self.__model.fit(self.__vt.transpose(), X_training_data['labels'])
-        """
+
 
 
 
@@ -41,10 +41,10 @@ class SGD:
         total_spam_data = 0
         total_spam_predicted_true = 0
 
-        # test_data = np.dot(np.dot(X_test_data['data_tfidf'], self.__u), np.linalg.inv(np.diag(self.__s)))
-        predicted_y = self.__model.predict(X_test_data['data_tfidf'])
+        test_data = np.dot(np.dot(X_test_data['data_tfidf'], self.__u), np.linalg.inv(np.diag(self.__s)))
+        # predicted_y = self.__model.predict(X_test_data['data_tfidf'])
 
-        # predicted_y = self.__model.predict(test_data)
+        predicted_y = self.__model.predict(test_data)
 
 
         for row in range(len(X_test_data['labels'])):
